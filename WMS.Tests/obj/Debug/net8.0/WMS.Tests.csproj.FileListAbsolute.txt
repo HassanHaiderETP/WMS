@@ -1,0 +1,57 @@
+E:\EmergTech\Practice\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Server.deps.json
+E:\EmergTech\Practice\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Server.runtimeconfig.json
+E:\EmergTech\Practice\WMS\WMS.Tests\bin\Debug\net8.0\spa.proxy.json
+E:\EmergTech\Practice\WMS\WMS.Tests\bin\Debug\net8.0\appsettings.Development.json
+E:\EmergTech\Practice\WMS\WMS.Tests\bin\Debug\net8.0\appsettings.json
+E:\EmergTech\Practice\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Server.staticwebassets.runtime.json
+E:\EmergTech\Practice\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Server.exe
+E:\EmergTech\Practice\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Tests.deps.json
+E:\EmergTech\Practice\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Tests.dll
+E:\EmergTech\Practice\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Tests.pdb
+E:\EmergTech\Practice\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Application.dll
+E:\EmergTech\Practice\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Core.dll
+E:\EmergTech\Practice\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Infrastructure.dll
+E:\EmergTech\Practice\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Server.dll
+E:\EmergTech\Practice\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Application.pdb
+E:\EmergTech\Practice\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Core.pdb
+E:\EmergTech\Practice\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Infrastructure.pdb
+E:\EmergTech\Practice\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Server.pdb
+E:\EmergTech\Practice\WMS\WMS.Tests\obj\Debug\net8.0\WMS.Tests.csproj.AssemblyReference.cache
+E:\EmergTech\Practice\WMS\WMS.Tests\obj\Debug\net8.0\WMS.Tests.GeneratedMSBuildEditorConfig.editorconfig
+E:\EmergTech\Practice\WMS\WMS.Tests\obj\Debug\net8.0\WMS.Tests.AssemblyInfoInputs.cache
+E:\EmergTech\Practice\WMS\WMS.Tests\obj\Debug\net8.0\WMS.Tests.AssemblyInfo.cs
+E:\EmergTech\Practice\WMS\WMS.Tests\obj\Debug\net8.0\WMS.Tests.csproj.CoreCompileInputs.cache
+E:\EmergTech\Practice\WMS\WMS.Tests\obj\Debug\net8.0\WMS.Tests.csproj.Up2Date
+E:\EmergTech\Practice\WMS\WMS.Tests\obj\Debug\net8.0\WMS.Tests.dll
+E:\EmergTech\Practice\WMS\WMS.Tests\obj\Debug\net8.0\refint\WMS.Tests.dll
+E:\EmergTech\Practice\WMS\WMS.Tests\obj\Debug\net8.0\WMS.Tests.pdb
+E:\EmergTech\Practice\WMS\WMS.Tests\obj\Debug\net8.0\ref\WMS.Tests.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Tests\obj\Debug\net8.0\WMS.Tests.csproj.AssemblyReference.cache
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Tests\obj\Debug\net8.0\WMS.Tests.GeneratedMSBuildEditorConfig.editorconfig
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Tests\obj\Debug\net8.0\WMS.Tests.AssemblyInfoInputs.cache
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Tests\obj\Debug\net8.0\WMS.Tests.AssemblyInfo.cs
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Tests\obj\Debug\net8.0\WMS.Tests.csproj.CoreCompileInputs.cache
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Tests\obj\Debug\net8.0\WMS.Tests.sourcelink.json
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Tests\obj\Debug\net8.0\WMS.Tests.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Tests\obj\Debug\net8.0\refint\WMS.Tests.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Tests\obj\Debug\net8.0\WMS.Tests.pdb
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Tests\bin\Debug\net8.0\appsettings.Development.json
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Server.deps.json
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Server.runtimeconfig.json
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Tests\bin\Debug\net8.0\spa.proxy.json
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Tests\bin\Debug\net8.0\appsettings.json
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Server.staticwebassets.runtime.json
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Server.exe
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Tests.deps.json
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Tests.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Tests.pdb
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Application.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Core.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Infrastructure.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Server.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Application.pdb
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Core.pdb
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Infrastructure.pdb
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Server.pdb
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Tests\obj\Debug\net8.0\WMS.Tests.csproj.Up2Date
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Tests\obj\Debug\net8.0\ref\WMS.Tests.dll

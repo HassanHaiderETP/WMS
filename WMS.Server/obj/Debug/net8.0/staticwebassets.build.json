@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "Hash": "taGOJ9I7F9QRPCRN9PdoD5lseh5T7xjE3RhQvze6EDQ=",
+  "Source": "WMS.Server",
+  "BasePath": "_content/WMS.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\wms.client\\wms.client.esproj",
+      "Version": 2,
+      "Source": "wms.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WMS.Server\\wwwroot",
+      "Source": "WMS.Server",
+      "ContentRoot": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Server\\wwwroot\\",
+      "BasePath": "_content/WMS.Server",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

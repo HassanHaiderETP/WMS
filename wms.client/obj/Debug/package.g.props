@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+    <PackageJsonName Condition="$(PackageJsonName) == ''">material-tailwind-dashboard-react</PackageJsonName>
+    <PackageJsonPrivate Condition="$(PackageJsonPrivate) == ''">true</PackageJsonPrivate>
+    <PackageJsonVersion Condition="$(PackageJsonVersion) == ''">2.1.0</PackageJsonVersion>
+    <PackageJsonType Condition="$(PackageJsonType) == ''">module</PackageJsonType>
+    <PackageJsonScriptsDev Condition="$(PackageJsonScriptsDev) == ''">vite</PackageJsonScriptsDev>
+    <PackageJsonScriptsBuild Condition="$(PackageJsonScriptsBuild) == ''">vite build</PackageJsonScriptsBuild>
+    <PackageJsonScriptsPreview Condition="$(PackageJsonScriptsPreview) == ''">vite preview</PackageJsonScriptsPreview>
+    <PackageJsonDependenciesHeroiconsReact Condition="$(PackageJsonDependenciesHeroiconsReact) == ''">2.0.18</PackageJsonDependenciesHeroiconsReact>
+    <PackageJsonDependenciesMaterialTailwindReact Condition="$(PackageJsonDependenciesMaterialTailwindReact) == ''">2.1.4</PackageJsonDependenciesMaterialTailwindReact>
+    <PackageJsonDependenciesApexcharts Condition="$(PackageJsonDependenciesApexcharts) == ''">3.44.0</PackageJsonDependenciesApexcharts>
+    <PackageJsonDependenciesPropTypes Condition="$(PackageJsonDependenciesPropTypes) == ''">15.8.1</PackageJsonDependenciesPropTypes>
+    <PackageJsonDependenciesReact Condition="$(PackageJsonDependenciesReact) == ''">18.2.0</PackageJsonDependenciesReact>
+    <PackageJsonDependenciesReactApexcharts Condition="$(PackageJsonDependenciesReactApexcharts) == ''">1.4.1</PackageJsonDependenciesReactApexcharts>
+    <PackageJsonDependenciesReactDom Condition="$(PackageJsonDependenciesReactDom) == ''">18.2.0</PackageJsonDependenciesReactDom>
+    <PackageJsonDependenciesReactRouterDom Condition="$(PackageJsonDependenciesReactRouterDom) == ''">6.17.0</PackageJsonDependenciesReactRouterDom>
+    <PackageJsonDevdependenciesTypesReact Condition="$(PackageJsonDevdependenciesTypesReact) == ''">18.2.31</PackageJsonDevdependenciesTypesReact>
+    <PackageJsonDevdependenciesTypesReactDom Condition="$(PackageJsonDevdependenciesTypesReactDom) == ''">18.2.14</PackageJsonDevdependenciesTypesReactDom>
+    <PackageJsonDevdependenciesVitejsPluginReact Condition="$(PackageJsonDevdependenciesVitejsPluginReact) == ''">4.1.0</PackageJsonDevdependenciesVitejsPluginReact>
+    <PackageJsonDevdependenciesAutoprefixer Condition="$(PackageJsonDevdependenciesAutoprefixer) == ''">10.4.16</PackageJsonDevdependenciesAutoprefixer>
+    <PackageJsonDevdependenciesPostcss Condition="$(PackageJsonDevdependenciesPostcss) == ''">8.4.31</PackageJsonDevdependenciesPostcss>
+    <PackageJsonDevdependenciesPrettier Condition="$(PackageJsonDevdependenciesPrettier) == ''">3.0.3</PackageJsonDevdependenciesPrettier>
+    <PackageJsonDevdependenciesPrettierPluginTailwindcss Condition="$(PackageJsonDevdependenciesPrettierPluginTailwindcss) == ''">0.5.6</PackageJsonDevdependenciesPrettierPluginTailwindcss>
+    <PackageJsonDevdependenciesTailwindcss Condition="$(PackageJsonDevdependenciesTailwindcss) == ''">3.3.4</PackageJsonDevdependenciesTailwindcss>
+    <PackageJsonDevdependenciesVite Condition="$(PackageJsonDevdependenciesVite) == ''">4.5.0</PackageJsonDevdependenciesVite>
+  </PropertyGroup>
+</Project>

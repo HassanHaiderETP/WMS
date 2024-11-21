@@ -1,0 +1,280 @@
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\appsettings.Development.json
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\appsettings.json
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\spa.proxy.json
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\WMS.Server.staticwebassets.runtime.json
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\WMS.Server.exe
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\WMS.Server.deps.json
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\WMS.Server.runtimeconfig.json
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\WMS.Server.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\WMS.Server.pdb
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\AutoMapper.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\Azure.Core.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\Azure.Identity.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.AspNetCore.SpaProxy.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\Newtonsoft.Json.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\System.Drawing.Common.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\System.Memory.Data.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\System.Runtime.Caching.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\System.Security.Permissions.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\System.Windows.Extensions.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\WMS.Application.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\WMS.Core.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\WMS.Infrastructure.dll
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\WMS.Application.pdb
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\WMS.Infrastructure.pdb
+E:\EmergTech\Practice\WMS\WMS.Server\bin\Debug\net8.0\WMS.Core.pdb
+E:\EmergTech\Practice\WMS\WMS.Server\obj\Debug\net8.0\WMS.Server.csproj.AssemblyReference.cache
+E:\EmergTech\Practice\WMS\WMS.Server\obj\Debug\net8.0\spa.proxy.json
+E:\EmergTech\Practice\WMS\WMS.Server\obj\Debug\net8.0\WMS.Server.GeneratedMSBuildEditorConfig.editorconfig
+E:\EmergTech\Practice\WMS\WMS.Server\obj\Debug\net8.0\WMS.Server.AssemblyInfoInputs.cache
+E:\EmergTech\Practice\WMS\WMS.Server\obj\Debug\net8.0\WMS.Server.AssemblyInfo.cs
+E:\EmergTech\Practice\WMS\WMS.Server\obj\Debug\net8.0\WMS.Server.csproj.CoreCompileInputs.cache
+E:\EmergTech\Practice\WMS\WMS.Server\obj\Debug\net8.0\WMS.Server.MvcApplicationPartsAssemblyInfo.cs
+E:\EmergTech\Practice\WMS\WMS.Server\obj\Debug\net8.0\WMS.Server.MvcApplicationPartsAssemblyInfo.cache
+E:\EmergTech\Practice\WMS\WMS.Server\obj\Debug\net8.0\staticwebassets.build.json
+E:\EmergTech\Practice\WMS\WMS.Server\obj\Debug\net8.0\staticwebassets.development.json
+E:\EmergTech\Practice\WMS\WMS.Server\obj\Debug\net8.0\staticwebassets\msbuild.WMS.Server.Microsoft.AspNetCore.StaticWebAssets.props
+E:\EmergTech\Practice\WMS\WMS.Server\obj\Debug\net8.0\staticwebassets\msbuild.build.WMS.Server.props
+E:\EmergTech\Practice\WMS\WMS.Server\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WMS.Server.props
+E:\EmergTech\Practice\WMS\WMS.Server\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WMS.Server.props
+E:\EmergTech\Practice\WMS\WMS.Server\obj\Debug\net8.0\staticwebassets.pack.json
+E:\EmergTech\Practice\WMS\WMS.Server\obj\Debug\net8.0\scopedcss\bundle\WMS.Server.styles.css
+E:\EmergTech\Practice\WMS\WMS.Server\obj\Debug\net8.0\WMS.Server.csproj.Up2Date
+E:\EmergTech\Practice\WMS\WMS.Server\obj\Debug\net8.0\WMS.Server.dll
+E:\EmergTech\Practice\WMS\WMS.Server\obj\Debug\net8.0\refint\WMS.Server.dll
+E:\EmergTech\Practice\WMS\WMS.Server\obj\Debug\net8.0\WMS.Server.pdb
+E:\EmergTech\Practice\WMS\WMS.Server\obj\Debug\net8.0\WMS.Server.genruntimeconfig.cache
+E:\EmergTech\Practice\WMS\WMS.Server\obj\Debug\net8.0\ref\WMS.Server.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\appsettings.Development.json
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\appsettings.json
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\spa.proxy.json
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\WMS.Server.staticwebassets.runtime.json
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\WMS.Server.exe
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\WMS.Server.deps.json
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\WMS.Server.runtimeconfig.json
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\WMS.Server.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\WMS.Server.pdb
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\AutoMapper.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\Azure.Core.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\Azure.Identity.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.AspNetCore.SpaProxy.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\Newtonsoft.Json.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\System.Drawing.Common.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\System.Memory.Data.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\System.Runtime.Caching.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\System.Security.Permissions.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\System.Windows.Extensions.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\WMS.Application.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\WMS.Core.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\WMS.Infrastructure.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\WMS.Application.pdb
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\WMS.Infrastructure.pdb
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\bin\Debug\net8.0\WMS.Core.pdb
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\obj\Debug\net8.0\WMS.Server.csproj.AssemblyReference.cache
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\obj\Debug\net8.0\spa.proxy.json
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\obj\Debug\net8.0\WMS.Server.GeneratedMSBuildEditorConfig.editorconfig
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\obj\Debug\net8.0\WMS.Server.AssemblyInfoInputs.cache
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\obj\Debug\net8.0\WMS.Server.AssemblyInfo.cs
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\obj\Debug\net8.0\WMS.Server.csproj.CoreCompileInputs.cache
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\obj\Debug\net8.0\WMS.Server.MvcApplicationPartsAssemblyInfo.cache
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\obj\Debug\net8.0\WMS.Server.sourcelink.json
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\obj\Debug\net8.0\staticwebassets.build.json
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\obj\Debug\net8.0\staticwebassets.development.json
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\obj\Debug\net8.0\staticwebassets\msbuild.WMS.Server.Microsoft.AspNetCore.StaticWebAssets.props
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\obj\Debug\net8.0\staticwebassets\msbuild.build.WMS.Server.props
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WMS.Server.props
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WMS.Server.props
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\obj\Debug\net8.0\staticwebassets.pack.json
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\obj\Debug\net8.0\scopedcss\bundle\WMS.Server.styles.css
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\obj\Debug\net8.0\WMS.Server.csproj.Up2Date
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\obj\Debug\net8.0\WMS.Server.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\obj\Debug\net8.0\refint\WMS.Server.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\obj\Debug\net8.0\WMS.Server.pdb
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\obj\Debug\net8.0\WMS.Server.genruntimeconfig.cache
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\obj\Debug\net8.0\ref\WMS.Server.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Server\obj\Debug\net8.0\WMS.Server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\appsettings.json
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\spa.proxy.json
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\WMS.Server.staticwebassets.runtime.json
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\WMS.Server.exe
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\WMS.Server.deps.json
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\WMS.Server.runtimeconfig.json
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\WMS.Server.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\WMS.Server.pdb
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.AspNetCore.SpaProxy.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\WMS.Application.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\WMS.Core.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\WMS.Infrastructure.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\WMS.Application.pdb
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\WMS.Infrastructure.pdb
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\bin\Debug\net8.0\WMS.Core.pdb
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\obj\Debug\net8.0\WMS.Server.csproj.AssemblyReference.cache
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\obj\Debug\net8.0\spa.proxy.json
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\obj\Debug\net8.0\WMS.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\obj\Debug\net8.0\WMS.Server.AssemblyInfoInputs.cache
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\obj\Debug\net8.0\WMS.Server.AssemblyInfo.cs
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\obj\Debug\net8.0\WMS.Server.csproj.CoreCompileInputs.cache
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\obj\Debug\net8.0\WMS.Server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\obj\Debug\net8.0\WMS.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\obj\Debug\net8.0\staticwebassets\msbuild.WMS.Server.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\obj\Debug\net8.0\staticwebassets\msbuild.build.WMS.Server.props
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WMS.Server.props
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WMS.Server.props
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\obj\Debug\net8.0\scopedcss\bundle\WMS.Server.styles.css
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\obj\Debug\net8.0\WMS.Server.csproj.Up2Date
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\obj\Debug\net8.0\WMS.Server.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\obj\Debug\net8.0\refint\WMS.Server.dll
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\obj\Debug\net8.0\WMS.Server.pdb
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\obj\Debug\net8.0\WMS.Server.genruntimeconfig.cache
+C:\Users\HP1\Desktop\Latest WMS Code\WMS\WMS.Server\obj\Debug\net8.0\ref\WMS.Server.dll

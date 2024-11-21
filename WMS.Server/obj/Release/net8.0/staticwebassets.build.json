@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "Hash": "NFdvgsBopP7Zg5JBKIyvNQDVoy3ofRfg+mYC6rWEAlA=",
+  "Source": "WMS.Server",
+  "BasePath": "_content/WMS.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "E:\\EmergTech\\ETClients\\ET-Warehouse\\Source Code\\WMS_Web\\WMS\\wms.client\\wms.client.esproj",
+      "Version": 2,
+      "Source": "wms.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Release;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Release;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WMS.Server\\wwwroot",
+      "Source": "WMS.Server",
+      "ContentRoot": "E:\\EmergTech\\ETClients\\ET-Warehouse\\Source Code\\WMS_Web\\WMS\\WMS.Server\\wwwroot\\",
+      "BasePath": "_content/WMS.Server",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

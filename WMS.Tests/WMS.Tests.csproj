@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WMS.Application\WMS.Application.csproj" />
+    <ProjectReference Include="..\WMS.Core\WMS.Core.csproj" />
+    <ProjectReference Include="..\WMS.Infrastructure\WMS.Infrastructure.csproj" />
+    <ProjectReference Include="..\WMS.Server\WMS.Server.csproj" />
+  </ItemGroup>
+
+</Project>

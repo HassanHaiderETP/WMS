@@ -1,0 +1,31 @@
+E:\EmergTech\Practice\WMS\WMS.Application\bin\Release\net8.0\WMS.Application.deps.json
+E:\EmergTech\Practice\WMS\WMS.Application\bin\Release\net8.0\WMS.Application.dll
+E:\EmergTech\Practice\WMS\WMS.Application\bin\Release\net8.0\WMS.Application.pdb
+E:\EmergTech\Practice\WMS\WMS.Application\bin\Release\net8.0\WMS.Core.dll
+E:\EmergTech\Practice\WMS\WMS.Application\bin\Release\net8.0\WMS.Core.pdb
+E:\EmergTech\Practice\WMS\WMS.Application\obj\Release\net8.0\WMS.Application.csproj.AssemblyReference.cache
+E:\EmergTech\Practice\WMS\WMS.Application\obj\Release\net8.0\WMS.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\EmergTech\Practice\WMS\WMS.Application\obj\Release\net8.0\WMS.Application.AssemblyInfoInputs.cache
+E:\EmergTech\Practice\WMS\WMS.Application\obj\Release\net8.0\WMS.Application.AssemblyInfo.cs
+E:\EmergTech\Practice\WMS\WMS.Application\obj\Release\net8.0\WMS.Application.csproj.CoreCompileInputs.cache
+E:\EmergTech\Practice\WMS\WMS.Application\obj\Release\net8.0\WMS.Appl.21886158.Up2Date
+E:\EmergTech\Practice\WMS\WMS.Application\obj\Release\net8.0\WMS.Application.dll
+E:\EmergTech\Practice\WMS\WMS.Application\obj\Release\net8.0\refint\WMS.Application.dll
+E:\EmergTech\Practice\WMS\WMS.Application\obj\Release\net8.0\WMS.Application.pdb
+E:\EmergTech\Practice\WMS\WMS.Application\obj\Release\net8.0\ref\WMS.Application.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Application\bin\Release\net8.0\WMS.Application.deps.json
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Application\bin\Release\net8.0\WMS.Application.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Application\bin\Release\net8.0\WMS.Application.pdb
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Application\bin\Release\net8.0\WMS.Core.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Application\bin\Release\net8.0\WMS.Core.pdb
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Application\obj\Release\net8.0\WMS.Application.csproj.AssemblyReference.cache
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Application\obj\Release\net8.0\WMS.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Application\obj\Release\net8.0\WMS.Application.AssemblyInfoInputs.cache
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Application\obj\Release\net8.0\WMS.Application.AssemblyInfo.cs
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Application\obj\Release\net8.0\WMS.Application.csproj.CoreCompileInputs.cache
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Application\obj\Release\net8.0\WMS.Application.sourcelink.json
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Application\obj\Release\net8.0\WMS.Appl.21886158.Up2Date
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Application\obj\Release\net8.0\WMS.Application.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Application\obj\Release\net8.0\refint\WMS.Application.dll
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Application\obj\Release\net8.0\WMS.Application.pdb
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Application\obj\Release\net8.0\ref\WMS.Application.dll

@@ -1,0 +1,393 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Tests\\WMS.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Application\\WMS.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Application\\WMS.Application.csproj",
+        "projectName": "WMS.Application",
+        "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Application\\WMS.Application.csproj",
+        "packagesPath": "C:\\Users\\HP1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HP1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Core\\WMS.Core.csproj": {
+                "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Core\\WMS.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Core\\WMS.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Core\\WMS.Core.csproj",
+        "projectName": "WMS.Core",
+        "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Core\\WMS.Core.csproj",
+        "packagesPath": "C:\\Users\\HP1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HP1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Infrastructure\\WMS.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Infrastructure\\WMS.Infrastructure.csproj",
+        "projectName": "WMS.Infrastructure",
+        "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Infrastructure\\WMS.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\HP1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HP1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Application\\WMS.Application.csproj": {
+                "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Application\\WMS.Application.csproj"
+              },
+              "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Core\\WMS.Core.csproj": {
+                "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Core\\WMS.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Server\\WMS.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Server\\WMS.Server.csproj",
+        "projectName": "WMS.Server",
+        "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Server\\WMS.Server.csproj",
+        "packagesPath": "C:\\Users\\HP1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HP1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Application\\WMS.Application.csproj": {
+                "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Application\\WMS.Application.csproj"
+              },
+              "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Infrastructure\\WMS.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Infrastructure\\WMS.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.AspNetCore.SpaProxy": {
+              "target": "Package",
+              "version": "[8.*-*, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Tests\\WMS.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Tests\\WMS.Tests.csproj",
+        "projectName": "WMS.Tests",
+        "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Tests\\WMS.Tests.csproj",
+        "packagesPath": "C:\\Users\\HP1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HP1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Application\\WMS.Application.csproj": {
+                "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Application\\WMS.Application.csproj"
+              },
+              "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Core\\WMS.Core.csproj": {
+                "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Core\\WMS.Core.csproj"
+              },
+              "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Infrastructure\\WMS.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Infrastructure\\WMS.Infrastructure.csproj"
+              },
+              "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Server\\WMS.Server.csproj": {
+                "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Server\\WMS.Server.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

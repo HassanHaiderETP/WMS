@@ -1,0 +1,2 @@
+E:\EmergTech\Practice\WMS\wms.client\obj\Release\wms.client.esproj.CoreCompileInputs.cache
+E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\wms.client\obj\Release\wms.client.esproj.CoreCompileInputs.cache
