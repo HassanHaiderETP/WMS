@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "NFdvgsBopP7Zg5JBKIyvNQDVoy3ofRfg+mYC6rWEAlA=",
+  "Hash": "iKjMfKJul+dSfCumpUwuKA3fKSVDAUN1v/NDoeOiG1Q=",
   "Source": "WMS.Server",
   "BasePath": "_content/WMS.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "E:\\EmergTech\\ETClients\\ET-Warehouse\\Source Code\\WMS_Web\\WMS\\wms.client\\wms.client.esproj",
+      "Identity": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\wms.client.esproj",
       "Version": 2,
       "Source": "wms.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
@@ -22,7 +22,7 @@
     {
       "Name": "WMS.Server\\wwwroot",
       "Source": "WMS.Server",
-      "ContentRoot": "E:\\EmergTech\\ETClients\\ET-Warehouse\\Source Code\\WMS_Web\\WMS\\WMS.Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Server\\wwwroot\\",
       "BasePath": "_content/WMS.Server",
       "Pattern": "**"
     }

@@ -21,3 +21,15 @@ E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Core\obj\Release
 E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Core\obj\Release\net8.0\refint\WMS.Core.dll
 E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Core\obj\Release\net8.0\WMS.Core.pdb
 E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Core\obj\Release\net8.0\ref\WMS.Core.dll
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Core\bin\Release\net8.0\WMS.Core.deps.json
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Core\bin\Release\net8.0\WMS.Core.dll
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Core\bin\Release\net8.0\WMS.Core.pdb
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Core\obj\Release\net8.0\WMS.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Core\obj\Release\net8.0\WMS.Core.AssemblyInfoInputs.cache
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Core\obj\Release\net8.0\WMS.Core.AssemblyInfo.cs
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Core\obj\Release\net8.0\WMS.Core.csproj.CoreCompileInputs.cache
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Core\obj\Release\net8.0\WMS.Core.sourcelink.json
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Core\obj\Release\net8.0\WMS.Core.dll
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Core\obj\Release\net8.0\refint\WMS.Core.dll
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Core\obj\Release\net8.0\WMS.Core.pdb
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Core\obj\Release\net8.0\ref\WMS.Core.dll

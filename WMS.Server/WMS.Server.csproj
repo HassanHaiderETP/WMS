@@ -10,8 +10,35 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\assets\index-3fdd7e41.js" />
+    <Content Remove="wwwroot\assets\index-4cd8b53e.css" />
     <Content Remove="wwwroot\assets\index-CVgJnYsd.js" />
     <Content Remove="wwwroot\assets\index-tn0RQdqM.css" />
+    <Content Remove="wwwroot\css\tailwind.css" />
+    <Content Remove="wwwroot\img\background-image.png" />
+    <Content Remove="wwwroot\img\bruce-mars.jpeg" />
+    <Content Remove="wwwroot\img\devto.svg" />
+    <Content Remove="wwwroot\img\favicon.png" />
+    <Content Remove="wwwroot\img\github.svg" />
+    <Content Remove="wwwroot\img\home-decor-1.jpeg" />
+    <Content Remove="wwwroot\img\home-decor-2.jpeg" />
+    <Content Remove="wwwroot\img\home-decor-3.jpeg" />
+    <Content Remove="wwwroot\img\home-decor-4.jpeg" />
+    <Content Remove="wwwroot\img\logo-asana.svg" />
+    <Content Remove="wwwroot\img\logo-atlassian.svg" />
+    <Content Remove="wwwroot\img\logo-ct-dark.png" />
+    <Content Remove="wwwroot\img\logo-ct.png" />
+    <Content Remove="wwwroot\img\logo-invision.svg" />
+    <Content Remove="wwwroot\img\logo-jira.svg" />
+    <Content Remove="wwwroot\img\logo-slack.svg" />
+    <Content Remove="wwwroot\img\logo-spotify.svg" />
+    <Content Remove="wwwroot\img\logo-xd.svg" />
+    <Content Remove="wwwroot\img\pattern.png" />
+    <Content Remove="wwwroot\img\team-1.jpeg" />
+    <Content Remove="wwwroot\img\team-2.jpeg" />
+    <Content Remove="wwwroot\img\team-3.jpeg" />
+    <Content Remove="wwwroot\img\team-4.jpeg" />
+    <Content Remove="wwwroot\img\twitter-logo.svg" />
     <Content Remove="wwwroot\index.html" />
     <Content Remove="wwwroot\vite.svg" />
   </ItemGroup>
@@ -38,10 +65,36 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\assets\index-3fdd7e41.js" />
+    <None Include="wwwroot\assets\index-4cd8b53e.css" />
     <None Include="wwwroot\assets\index-CVgJnYsd.js" />
     <None Include="wwwroot\assets\index-tn0RQdqM.css" />
+    <None Include="wwwroot\css\tailwind.css" />
+    <None Include="wwwroot\img\background-image.png" />
+    <None Include="wwwroot\img\bruce-mars.jpeg" />
+    <None Include="wwwroot\img\devto.svg" />
+    <None Include="wwwroot\img\favicon.png" />
+    <None Include="wwwroot\img\github.svg" />
+    <None Include="wwwroot\img\home-decor-1.jpeg" />
+    <None Include="wwwroot\img\home-decor-2.jpeg" />
+    <None Include="wwwroot\img\home-decor-3.jpeg" />
+    <None Include="wwwroot\img\home-decor-4.jpeg" />
+    <None Include="wwwroot\img\logo-asana.svg" />
+    <None Include="wwwroot\img\logo-atlassian.svg" />
+    <None Include="wwwroot\img\logo-ct-dark.png" />
+    <None Include="wwwroot\img\logo-ct.png" />
+    <None Include="wwwroot\img\logo-invision.svg" />
+    <None Include="wwwroot\img\logo-jira.svg" />
+    <None Include="wwwroot\img\logo-slack.svg" />
+    <None Include="wwwroot\img\logo-spotify.svg" />
+    <None Include="wwwroot\img\logo-xd.svg" />
+    <None Include="wwwroot\img\pattern.png" />
+    <None Include="wwwroot\img\team-1.jpeg" />
+    <None Include="wwwroot\img\team-2.jpeg" />
+    <None Include="wwwroot\img\team-3.jpeg" />
+    <None Include="wwwroot\img\team-4.jpeg" />
+    <None Include="wwwroot\img\twitter-logo.svg" />
     <None Include="wwwroot\index.html" />
-    <None Include="wwwroot\vite.svg" />
   </ItemGroup>
 
 </Project>

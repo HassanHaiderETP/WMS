@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Tests\\WMS.Tests.csproj": {}
+    "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Tests\\WMS.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Application\\WMS.Application.csproj": {
+    "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Application\\WMS.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Application\\WMS.Application.csproj",
+        "projectUniqueName": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Application\\WMS.Application.csproj",
         "projectName": "WMS.Application",
-        "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Application\\WMS.Application.csproj",
+        "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Application\\WMS.Application.csproj",
         "packagesPath": "C:\\Users\\HP1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Application\\obj\\",
+        "outputPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Core\\WMS.Core.csproj": {
-                "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Core\\WMS.Core.csproj"
+              "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Core\\WMS.Core.csproj": {
+                "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Core\\WMS.Core.csproj"
               }
             }
           }
@@ -75,14 +75,14 @@
         }
       }
     },
-    "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Core\\WMS.Core.csproj": {
+    "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Core\\WMS.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Core\\WMS.Core.csproj",
+        "projectUniqueName": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Core\\WMS.Core.csproj",
         "projectName": "WMS.Core",
-        "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Core\\WMS.Core.csproj",
+        "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Core\\WMS.Core.csproj",
         "packagesPath": "C:\\Users\\HP1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Core\\obj\\",
+        "outputPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -136,14 +136,14 @@
         }
       }
     },
-    "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Infrastructure\\WMS.Infrastructure.csproj": {
+    "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Infrastructure\\WMS.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Infrastructure\\WMS.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Infrastructure\\WMS.Infrastructure.csproj",
         "projectName": "WMS.Infrastructure",
-        "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Infrastructure\\WMS.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Infrastructure\\WMS.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\HP1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -161,11 +161,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Application\\WMS.Application.csproj": {
-                "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Application\\WMS.Application.csproj"
+              "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Application\\WMS.Application.csproj": {
+                "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Application\\WMS.Application.csproj"
               },
-              "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Core\\WMS.Core.csproj": {
-                "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Core\\WMS.Core.csproj"
+              "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Core\\WMS.Core.csproj": {
+                "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Core\\WMS.Core.csproj"
               }
             }
           }
@@ -226,14 +226,14 @@
         }
       }
     },
-    "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Server\\WMS.Server.csproj": {
+    "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Server\\WMS.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Server\\WMS.Server.csproj",
+        "projectUniqueName": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Server\\WMS.Server.csproj",
         "projectName": "WMS.Server",
-        "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Server\\WMS.Server.csproj",
+        "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Server\\WMS.Server.csproj",
         "packagesPath": "C:\\Users\\HP1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Server\\obj\\",
+        "outputPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -251,11 +251,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Application\\WMS.Application.csproj": {
-                "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Application\\WMS.Application.csproj"
+              "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Application\\WMS.Application.csproj": {
+                "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Application\\WMS.Application.csproj"
               },
-              "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Infrastructure\\WMS.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Infrastructure\\WMS.Infrastructure.csproj"
+              "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Infrastructure\\WMS.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Infrastructure\\WMS.Infrastructure.csproj"
               }
             }
           }
@@ -315,14 +315,14 @@
         }
       }
     },
-    "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Tests\\WMS.Tests.csproj": {
+    "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Tests\\WMS.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Tests\\WMS.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Tests\\WMS.Tests.csproj",
         "projectName": "WMS.Tests",
-        "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Tests\\WMS.Tests.csproj",
+        "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Tests\\WMS.Tests.csproj",
         "packagesPath": "C:\\Users\\HP1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Tests\\obj\\",
+        "outputPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -340,17 +340,17 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Application\\WMS.Application.csproj": {
-                "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Application\\WMS.Application.csproj"
+              "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Application\\WMS.Application.csproj": {
+                "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Application\\WMS.Application.csproj"
               },
-              "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Core\\WMS.Core.csproj": {
-                "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Core\\WMS.Core.csproj"
+              "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Core\\WMS.Core.csproj": {
+                "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Core\\WMS.Core.csproj"
               },
-              "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Infrastructure\\WMS.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Infrastructure\\WMS.Infrastructure.csproj"
+              "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Infrastructure\\WMS.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Infrastructure\\WMS.Infrastructure.csproj"
               },
-              "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Server\\WMS.Server.csproj": {
-                "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Server\\WMS.Server.csproj"
+              "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Server\\WMS.Server.csproj": {
+                "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Server\\WMS.Server.csproj"
               }
             }
           }

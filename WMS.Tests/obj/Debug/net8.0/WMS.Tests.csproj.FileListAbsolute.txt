@@ -55,3 +55,32 @@ E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Tests\bin\Debug\
 E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Server.pdb
 E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Tests\obj\Debug\net8.0\WMS.Tests.csproj.Up2Date
 E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Tests\obj\Debug\net8.0\ref\WMS.Tests.dll
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Tests\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Server.deps.json
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Server.runtimeconfig.json
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Tests\bin\Debug\net8.0\spa.proxy.json
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Tests\bin\Debug\net8.0\appsettings.json
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Server.staticwebassets.runtime.json
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Server.exe
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Tests.deps.json
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Tests.dll
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Tests.pdb
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Application.dll
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Core.dll
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Infrastructure.dll
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Server.dll
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Application.pdb
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Core.pdb
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Infrastructure.pdb
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Tests\bin\Debug\net8.0\WMS.Server.pdb
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Tests\obj\Debug\net8.0\WMS.Tests.csproj.AssemblyReference.cache
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Tests\obj\Debug\net8.0\WMS.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Tests\obj\Debug\net8.0\WMS.Tests.AssemblyInfoInputs.cache
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Tests\obj\Debug\net8.0\WMS.Tests.AssemblyInfo.cs
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Tests\obj\Debug\net8.0\WMS.Tests.csproj.CoreCompileInputs.cache
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Tests\obj\Debug\net8.0\WMS.Tests.sourcelink.json
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Tests\obj\Debug\net8.0\WMS.Tests.csproj.Up2Date
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Tests\obj\Debug\net8.0\WMS.Tests.dll
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Tests\obj\Debug\net8.0\refint\WMS.Tests.dll
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Tests\obj\Debug\net8.0\WMS.Tests.pdb
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Tests\obj\Debug\net8.0\ref\WMS.Tests.dll

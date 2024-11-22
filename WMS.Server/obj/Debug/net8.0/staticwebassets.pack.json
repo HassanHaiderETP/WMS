@@ -1,0 +1,129 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Server\\wwwroot\\assets\\index-3fdd7e41.js",
+      "PackagePath": "staticwebassets\\assets\\index-3fdd7e41.js"
+    },
+    {
+      "Id": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Server\\wwwroot\\assets\\index-4cd8b53e.css",
+      "PackagePath": "staticwebassets\\assets\\index-4cd8b53e.css"
+    },
+    {
+      "Id": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Server\\wwwroot\\css\\tailwind.css",
+      "PackagePath": "staticwebassets\\css\\tailwind.css"
+    },
+    {
+      "Id": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Server\\wwwroot\\img\\background-image.png",
+      "PackagePath": "staticwebassets\\img\\background-image.png"
+    },
+    {
+      "Id": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Server\\wwwroot\\img\\bruce-mars.jpeg",
+      "PackagePath": "staticwebassets\\img\\bruce-mars.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Server\\wwwroot\\img\\devto.svg",
+      "PackagePath": "staticwebassets\\img\\devto.svg"
+    },
+    {
+      "Id": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Server\\wwwroot\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\img\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Server\\wwwroot\\img\\github.svg",
+      "PackagePath": "staticwebassets\\img\\github.svg"
+    },
+    {
+      "Id": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Server\\wwwroot\\img\\home-decor-1.jpeg",
+      "PackagePath": "staticwebassets\\img\\home-decor-1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Server\\wwwroot\\img\\home-decor-2.jpeg",
+      "PackagePath": "staticwebassets\\img\\home-decor-2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Server\\wwwroot\\img\\home-decor-3.jpeg",
+      "PackagePath": "staticwebassets\\img\\home-decor-3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Server\\wwwroot\\img\\home-decor-4.jpeg",
+      "PackagePath": "staticwebassets\\img\\home-decor-4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Server\\wwwroot\\img\\logo-asana.svg",
+      "PackagePath": "staticwebassets\\img\\logo-asana.svg"
+    },
+    {
+      "Id": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Server\\wwwroot\\img\\logo-atlassian.svg",
+      "PackagePath": "staticwebassets\\img\\logo-atlassian.svg"
+    },
+    {
+      "Id": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Server\\wwwroot\\img\\logo-ct-dark.png",
+      "PackagePath": "staticwebassets\\img\\logo-ct-dark.png"
+    },
+    {
+      "Id": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Server\\wwwroot\\img\\logo-ct.png",
+      "PackagePath": "staticwebassets\\img\\logo-ct.png"
+    },
+    {
+      "Id": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Server\\wwwroot\\img\\logo-invision.svg",
+      "PackagePath": "staticwebassets\\img\\logo-invision.svg"
+    },
+    {
+      "Id": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Server\\wwwroot\\img\\logo-jira.svg",
+      "PackagePath": "staticwebassets\\img\\logo-jira.svg"
+    },
+    {
+      "Id": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Server\\wwwroot\\img\\logo-slack.svg",
+      "PackagePath": "staticwebassets\\img\\logo-slack.svg"
+    },
+    {
+      "Id": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Server\\wwwroot\\img\\logo-spotify.svg",
+      "PackagePath": "staticwebassets\\img\\logo-spotify.svg"
+    },
+    {
+      "Id": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Server\\wwwroot\\img\\logo-xd.svg",
+      "PackagePath": "staticwebassets\\img\\logo-xd.svg"
+    },
+    {
+      "Id": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Server\\wwwroot\\img\\pattern.png",
+      "PackagePath": "staticwebassets\\img\\pattern.png"
+    },
+    {
+      "Id": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Server\\wwwroot\\img\\team-1.jpeg",
+      "PackagePath": "staticwebassets\\img\\team-1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Server\\wwwroot\\img\\team-2.jpeg",
+      "PackagePath": "staticwebassets\\img\\team-2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Server\\wwwroot\\img\\team-3.jpeg",
+      "PackagePath": "staticwebassets\\img\\team-3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Server\\wwwroot\\img\\team-4.jpeg",
+      "PackagePath": "staticwebassets\\img\\team-4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Server\\wwwroot\\img\\twitter-logo.svg",
+      "PackagePath": "staticwebassets\\img\\twitter-logo.svg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WMS.Server.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WMS.Server.props",
+      "PackagePath": "build\\WMS.Server.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WMS.Server.props",
+      "PackagePath": "buildMultiTargeting\\WMS.Server.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WMS.Server.props",
+      "PackagePath": "buildTransitive\\WMS.Server.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

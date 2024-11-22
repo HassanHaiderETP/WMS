@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Core\\WMS.Core.csproj",
+      "projectUniqueName": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Core\\WMS.Core.csproj",
       "projectName": "WMS.Core",
-      "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Core\\WMS.Core.csproj",
+      "projectPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Core\\WMS.Core.csproj",
       "packagesPath": "C:\\Users\\HP1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\WMS\\WMS.Core\\obj\\",
+      "outputPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP1\\AppData\\Roaming\\NuGet\\NuGet.Config",

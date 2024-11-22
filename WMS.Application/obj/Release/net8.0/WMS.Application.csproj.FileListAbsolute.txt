@@ -29,3 +29,19 @@ E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Application\obj\
 E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Application\obj\Release\net8.0\refint\WMS.Application.dll
 E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Application\obj\Release\net8.0\WMS.Application.pdb
 E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Application\obj\Release\net8.0\ref\WMS.Application.dll
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Application\bin\Release\net8.0\WMS.Application.deps.json
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Application\bin\Release\net8.0\WMS.Application.dll
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Application\bin\Release\net8.0\WMS.Application.pdb
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Application\bin\Release\net8.0\WMS.Core.dll
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Application\bin\Release\net8.0\WMS.Core.pdb
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Application\obj\Release\net8.0\WMS.Application.csproj.AssemblyReference.cache
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Application\obj\Release\net8.0\WMS.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Application\obj\Release\net8.0\WMS.Application.AssemblyInfoInputs.cache
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Application\obj\Release\net8.0\WMS.Application.AssemblyInfo.cs
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Application\obj\Release\net8.0\WMS.Application.csproj.CoreCompileInputs.cache
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Application\obj\Release\net8.0\WMS.Application.sourcelink.json
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Application\obj\Release\net8.0\WMS.Appl.21886158.Up2Date
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Application\obj\Release\net8.0\WMS.Application.dll
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Application\obj\Release\net8.0\refint\WMS.Application.dll
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Application\obj\Release\net8.0\WMS.Application.pdb
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Application\obj\Release\net8.0\ref\WMS.Application.dll

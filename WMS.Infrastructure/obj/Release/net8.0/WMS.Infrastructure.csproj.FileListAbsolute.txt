@@ -37,3 +37,23 @@ E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Infrastructure\o
 E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Infrastructure\obj\Release\net8.0\WMS.Infrastructure.pdb
 E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Infrastructure\obj\Release\net8.0\WMS.Infrastructure.genruntimeconfig.cache
 E:\EmergTech\ETClients\ET-Warehouse\Source Code\WMS_Web\WMS\WMS.Infrastructure\obj\Release\net8.0\ref\WMS.Infrastructure.dll
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Infrastructure\bin\Release\net8.0\WMS.Infrastructure.deps.json
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Infrastructure\bin\Release\net8.0\WMS.Infrastructure.runtimeconfig.json
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Infrastructure\bin\Release\net8.0\WMS.Infrastructure.dll
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Infrastructure\bin\Release\net8.0\WMS.Infrastructure.pdb
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Infrastructure\bin\Release\net8.0\WMS.Application.dll
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Infrastructure\bin\Release\net8.0\WMS.Core.dll
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Infrastructure\bin\Release\net8.0\WMS.Application.pdb
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Infrastructure\bin\Release\net8.0\WMS.Core.pdb
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Infrastructure\obj\Release\net8.0\WMS.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Infrastructure\obj\Release\net8.0\WMS.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Infrastructure\obj\Release\net8.0\WMS.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Infrastructure\obj\Release\net8.0\WMS.Infrastructure.AssemblyInfo.cs
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Infrastructure\obj\Release\net8.0\WMS.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Infrastructure\obj\Release\net8.0\WMS.Infrastructure.sourcelink.json
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Infrastructure\obj\Release\net8.0\WMS.Infr.677E6FEF.Up2Date
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Infrastructure\obj\Release\net8.0\WMS.Infrastructure.dll
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Infrastructure\obj\Release\net8.0\refint\WMS.Infrastructure.dll
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Infrastructure\obj\Release\net8.0\WMS.Infrastructure.pdb
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Infrastructure\obj\Release\net8.0\WMS.Infrastructure.genruntimeconfig.cache
+C:\Users\HP1\Desktop\Latest WMS Code\_WMS\WMS\WMS.Infrastructure\obj\Release\net8.0\ref\WMS.Infrastructure.dll
