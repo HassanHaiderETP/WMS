@@ -5,10 +5,71 @@ import {
   Button,
   Typography,
 } from "@material-tailwind/react";
+import React, { useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
-
+import CryptoJS from 'crypto-js';
+import { useDispatch } from 'react-redux';
+import { setCredentials } from '../../Redux/userSlice';
+import { useNavigate } from 'react-router-dom';
+import axios from 'axios';
 
 export function SignIn() {
+    const dispatch = useDispatch();
+
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+    const [error, setError] = useState('');
+    //const [users, setUsers] = useState([]);
+    const navigate = useNavigate();
+    const api = axios.create({
+        baseURL: 'https://' + import.meta.env.VITE_API_URL + '/', // Use the correct API URL
+    });
+
+    const encryptAndStoreData = (email, password) => {
+        const encryptedEmail = CryptoJS.AES.encrypt(email, 'secretKey').toString();
+        const encryptedPassword = CryptoJS.AES.encrypt(password, 'secretKey').toString();
+
+        // Dispatch encrypted values to Redux state (this is what will be persisted)
+        dispatch(setCredentials({ email: encryptedEmail, password: encryptedPassword }));
+    };
+
+    const handleLogin = async (e) => {
+        e.preventDefault();
+
+        if (!email || !password) {
+            setError('Email and password are required');
+            return;
+        }
+
+        encryptAndStoreData(email, password);
+        //dispatch(setCredentials({ email, password }));
+
+        try {
+            const response = await api.post('api/UserProfile/Authenticate', {
+                userName: email,
+                password: password,
+            });
+
+            if (response.data && response.data.token) {
+                const { userId, token, refreshToken } = response.data;
+
+                // Store tokens in local storage
+                localStorage.setItem('userId', userId);
+                localStorage.setItem('authToken', token);
+                localStorage.setItem('refreshToken', refreshToken);
+
+                // Redirect to the dashboard after successful login
+                navigate('/dashboard/home');
+            } else {
+                setError('Invalid email or password');
+            }
+        } catch (error) {
+            console.error('Error during authentication:', error);
+            setError('Login failed. Please check your credentials.');
+        }
+    };
+
+
   return (
     <section className="m-8 flex gap-4">
       <div className="w-full lg:w-3/5 mt-24">
@@ -20,7 +81,8 @@ export function SignIn() {
             Sign In
           </Typography>
 
-          <Typography variant="paragraph" color="blue-gray" className="text-lg font-normal">Enter your email and password to Sign In.</Typography>
+          {!error && <Typography variant="paragraph" color="blue-gray" className="text-lg font-normal">Enter your email and password to Sign In.</Typography>}
+          {error && <div className="text-red-500 mb-4">{error}</div>}
         </div>
         <form className="mt-8 mb-2 mx-auto w-80 max-w-screen-lg lg:w-1/2">
           <div className="mb-1 flex flex-col gap-6">
@@ -29,23 +91,32 @@ export function SignIn() {
             </Typography>
             <Input
               size="lg"
+              type="email"
+              id="email"
               placeholder="name@mail.com"
               className=" !border-t-blue-gray-200 focus:!border-t-gray-900"
+              value={email}
               labelProps={{
                 className: "before:content-none after:content-none",
               }}
+              onChange={(e) => setEmail(e.target.value)}
+              required
             />
             <Typography variant="small" color="blue-gray" className="-mb-3 font-medium">
               Password
             </Typography>
             <Input
               type="password"
+              id="password"
               size="lg"
               placeholder="********"
               className=" !border-t-blue-gray-200 focus:!border-t-gray-900"
               labelProps={{
                 className: "before:content-none after:content-none",
               }}
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              required
             />
           </div>
           <Checkbox
@@ -66,7 +137,7 @@ export function SignIn() {
             }
             containerProps={{ className: "-ml-2.5" }}
           />
-          <Button className="mt-6 bg-gradient-to-r from-blue-400" fullWidth>
+          <Button className="mt-6 bg-gradient-to-r from-blue-400" fullWidth onClick = {handleLogin}>
             Sign In
           </Button>
 
