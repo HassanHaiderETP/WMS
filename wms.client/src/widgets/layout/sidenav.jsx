@@ -8,6 +8,7 @@ import {
   Typography,
 } from "@material-tailwind/react";
 import { useMaterialTailwindController, setOpenSidenav } from "@/context";
+import ETIcon from '../../../public/img/et-icon.svg';
 
 export function Sidenav({ brandImg, brandName, routes }) {
   const [controller, dispatch] = useMaterialTailwindController();
@@ -31,7 +32,9 @@ export function Sidenav({ brandImg, brandName, routes }) {
           <Typography
             variant="h6"
             color={sidenavType === "dark" ? "white" : "blue-gray"}
+            className="ml-5 flex items-center gap-2"
           >
+            <img src={ETIcon} alt="ET Icon" className="w-6 h-6 mr-2" />
             {brandName}
           </Typography>
         </Link>
@@ -96,8 +99,8 @@ export function Sidenav({ brandImg, brandName, routes }) {
 }
 
 Sidenav.defaultProps = {
-  brandImg: "/img/logo-ct.png",
-  brandName: "Material Tailwind React",
+  brandImg: "/img/et-icon.png",
+  brandName: "WMS",
 };
 
 Sidenav.propTypes = {

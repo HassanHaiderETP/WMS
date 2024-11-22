@@ -13,7 +13,13 @@ export function SignIn() {
     <section className="m-8 flex gap-4">
       <div className="w-full lg:w-3/5 mt-24">
         <div className="text-center">
-          <Typography variant="h2" className="font-bold mb-4">Sign In</Typography>
+          <Typography
+            variant="h2"
+            className="font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-500"
+          >
+            Sign In
+          </Typography>
+
           <Typography variant="paragraph" color="blue-gray" className="text-lg font-normal">Enter your email and password to Sign In.</Typography>
         </div>
         <form className="mt-8 mb-2 mx-auto w-80 max-w-screen-lg lg:w-1/2">
@@ -60,7 +66,7 @@ export function SignIn() {
             }
             containerProps={{ className: "-ml-2.5" }}
           />
-          <Button className="mt-6" fullWidth>
+          <Button className="mt-6 bg-gradient-to-r from-blue-400" fullWidth>
             Sign In
           </Button>
 
@@ -114,7 +120,7 @@ export function SignIn() {
       </div>
       <div className="w-2/5 h-full hidden lg:block">
         <img
-          src="/img/pattern.png"
+          src="/img/pattern.png" // change emergtech color pattern
           className="h-full w-full object-cover rounded-3xl"
         />
       </div>
