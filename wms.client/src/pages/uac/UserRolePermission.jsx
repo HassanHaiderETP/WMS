@@ -122,7 +122,7 @@ function UserRolePermission({ darkMode }) {
 
     // Table columns
     const columns = [
-        { name: 'SrNo', selector: (_, index) => index + 1, sortable: true },
+        { name: 'Sr#', selector: (_, index) => index + 1, sortable: true },
         { name: 'Module', selector: row => row.module, sortable: true },
         { name: 'Permission', selector: row => row.permission, sortable: true },
         {
@@ -137,49 +137,75 @@ function UserRolePermission({ darkMode }) {
         },
     ];
 
+    // Custom styles for React DataTable
+    const customStyles = {
+        rows: {
+            style: {
+                minHeight: '48px', // Set row height
+            },
+        },
+        headCells: {
+            style: {
+                backgroundColor: '#f3f4f6', // Light gray background
+                color: '#374151', // Dark text
+                fontWeight: 'bold',
+                textAlign: 'center',
+            },
+        },
+        cells: {
+            style: {
+                textAlign: 'center', // Center align text in cells
+            },
+        },
+    };
+
     return (
-        <div className={`p-8 ${darkMode ? 'bg-gray-900 text-white' : 'bg-gray-100 text-black'}`}>
-            <h1 className="text-2xl font-bold mb-4">User Role Permission</h1>
+        <>
+            <section>
+                <div className="flex justify-between md:flex-col items-start">
+                    <div className="">
+                            <h2 className="mb-4 font-bold">User Role Permission</h2>
+                    </div>
 
-            {/* Dropdown for roles */}
-            <div className="mb-4">
-                <label className="block text-lg">User Role:</label>
-                <select
-                    value={selectedRole}
-                    onChange={handleRoleChange}
-                    className="p-2 border rounded"
-                >
-                    {roles.map(role => (
-                        <option key={role.rolesId} value={role.rolesId}>
-                            {role.rolesDesc}
-                        </option>
-                    ))}
-                </select>
-            </div>
+                    {/* Dropdown for roles */}
+                    <div className="">
+                        <select
+                            value={selectedRole}
+                            onChange={handleRoleChange}
+                            className="bg-gray-500 hover:bg-gray-600 text-white px-4 py-2 rounded"
+                        >
+                            {roles.map(role => (
+                                <option key={role.rolesId} value={role.rolesId}>
+                                    {role.rolesDesc}
+                                </option>
+                            ))}
+                        </select>
 
-            {/* Permissions Table */}
-            {loading ? (
-                <p>Loading...</p>
-            ) : (
-                <DataTable
-                    columns={columns}
-                    data={tableData}
-                    pagination
-                    highlightOnHover
-                    pointerOnHover
-                    theme={darkMode ? 'dark' : 'default'}
-                    className="bg-white"
-                />
-            )}
+                        <button
+                            type="button"
+                            className="ml-5 bg-blue-500 hover:bg-blue-600 text-white px-8 py-2 rounded"
+                            onClick={handleSave}
+                        >
+                            Save
+                        </button>
+                    </div>
+                </div>
 
-            {/* Save Button */}
-            <button
-                onClick={handleSave}
-                className="bg-blue-500 text-white mt-4 p-2 rounded hover:bg-blue-700"
-            >
-                Save
-            </button>
-        </div>
+                <div className="w-full mt-4">
+                    <div className="overflow-x-auto">
+                    <DataTable
+                        columns={columns}
+                        data={tableData}
+                        pagination
+                        highlightOnHover
+                        pointerOnHover
+                        theme={darkMode ? 'dark' : 'default'}
+                        customStyles={customStyles}
+                    />
+                    </div>
+                </div>
+            </section>
+        </>
     );
 }
 
