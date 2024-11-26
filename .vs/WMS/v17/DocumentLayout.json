@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|c:\\users\\hp1\\desktop\\latest wms code\\_wms\\wms\\wms.client\\src\\pages\\auth\\sign-in.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|solutionrelative:wms.client\\src\\pages\\auth\\sign-in.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|c:\\users\\hp1\\desktop\\latest wms code\\_wms\\wms\\wms.client\\src\\pages\\uac\\createuserrole.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|solutionrelative:wms.client\\src\\pages\\uac\\createuserrole.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D81C211-95B8-46D9-8D2A-C803FFF1DD82}|WMS.Server\\WMS.Server.csproj|c:\\users\\hp1\\desktop\\latest wms code\\_wms\\wms\\wms.server\\controllers\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D81C211-95B8-46D9-8D2A-C803FFF1DD82}|WMS.Server\\WMS.Server.csproj|solutionrelative:wms.server\\controllers\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|c:\\users\\hp1\\desktop\\latest wms code\\_wms\\wms\\wms.client\\src\\pages\\uac\\createuser.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|solutionrelative:wms.client\\src\\pages\\uac\\createuser.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|c:\\users\\hp1\\desktop\\latest wms code\\_wms\\wms\\wms.client\\src\\layouts\\dashboard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|solutionrelative:wms.client\\src\\layouts\\dashboard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|c:\\users\\hp1\\desktop\\latest wms code\\_wms\\wms\\wms.client\\src\\pages\\uac\\changepassword.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|solutionrelative:wms.client\\src\\pages\\uac\\changepassword.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4D81C211-95B8-46D9-8D2A-C803FFF1DD82}|WMS.Server\\WMS.Server.csproj|c:\\users\\hp1\\desktop\\latest wms code\\_wms\\wms\\wms.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -23,16 +23,48 @@
       "RelativeMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|solutionrelative:wms.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|c:\\users\\hp1\\desktop\\latest wms code\\_wms\\wms\\wms.client\\src\\routes.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|solutionrelative:wms.client\\src\\routes.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|c:\\users\\hp1\\desktop\\latest wms code\\_wms\\wms\\wms.client\\src\\widgets\\layout\\configurator.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|solutionrelative:wms.client\\src\\widgets\\layout\\configurator.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|c:\\users\\hp1\\desktop\\latest wms code\\_wms\\wms\\wms.client\\src\\pages\\uac\\userrolepermission.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|solutionrelative:wms.client\\src\\pages\\uac\\userrolepermission.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|c:\\users\\hp1\\desktop\\latest wms code\\_wms\\wms\\wms.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|solutionrelative:wms.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|c:\\users\\hp1\\desktop\\latest wms code\\_wms\\wms\\wms.client\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|solutionrelative:wms.client\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|c:\\users\\hp1\\desktop\\latest wms code\\_wms\\wms\\wms.client\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|solutionrelative:wms.client\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|c:\\users\\hp1\\desktop\\latest wms code\\_wms\\wms\\wms.client\\src\\widgets\\layout\\footer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|solutionrelative:wms.client\\src\\widgets\\layout\\footer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|c:\\users\\hp1\\desktop\\latest wms code\\_wms\\wms\\wms.client\\src\\widgets\\layout\\sidenav.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|solutionrelative:wms.client\\src\\widgets\\layout\\sidenav.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|c:\\users\\hp1\\desktop\\latest wms code\\_wms\\wms\\wms.client\\src\\pages\\auth\\sign-in.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|solutionrelative:wms.client\\src\\pages\\auth\\sign-in.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|c:\\users\\hp1\\desktop\\latest wms code\\_wms\\wms\\wms.client\\src\\layouts\\dashboard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|solutionrelative:wms.client\\src\\layouts\\dashboard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|c:\\users\\hp1\\desktop\\latest wms code\\_wms\\wms\\wms.client\\src\\routes.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|solutionrelative:wms.client\\src\\routes.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D81C211-95B8-46D9-8D2A-C803FFF1DD82}|WMS.Server\\WMS.Server.csproj|c:\\users\\hp1\\desktop\\latest wms code\\_wms\\wms\\wms.server\\controllers\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D81C211-95B8-46D9-8D2A-C803FFF1DD82}|WMS.Server\\WMS.Server.csproj|solutionrelative:wms.server\\controllers\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|c:\\users\\hp1\\desktop\\latest wms code\\_wms\\wms\\wms.client\\src\\widgets\\layout\\configurator.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|solutionrelative:wms.client\\src\\widgets\\layout\\configurator.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4D81C211-95B8-46D9-8D2A-C803FFF1DD82}|WMS.Server\\WMS.Server.csproj|c:\\users\\hp1\\desktop\\latest wms code\\_wms\\wms\\wms.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -43,24 +75,12 @@
       "RelativeMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|solutionrelative:wms.client\\src\\layouts\\auth.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|c:\\users\\hp1\\desktop\\latest wms code\\_wms\\wms\\wms.client\\src\\widgets\\layout\\sidenav.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|solutionrelative:wms.client\\src\\widgets\\layout\\sidenav.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|c:\\users\\hp1\\desktop\\latest wms code\\_wms\\wms\\wms.client\\src\\widgets\\layout\\dashboard-navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|solutionrelative:wms.client\\src\\widgets\\layout\\dashboard-navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|c:\\users\\hp1\\desktop\\latest wms code\\_wms\\wms\\wms.client\\src\\context\\index.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|solutionrelative:wms.client\\src\\context\\index.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|c:\\users\\hp1\\desktop\\latest wms code\\_wms\\wms\\wms.client\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|solutionrelative:wms.client\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|c:\\users\\hp1\\desktop\\latest wms code\\_wms\\wms\\wms.client\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{5B287F18-8FD0-4876-B808-8882EAE1DC9A}|wms.client\\wms.client.esproj|solutionrelative:wms.client\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -87,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Server\\appsettings.json",
               "RelativeDocumentMoniker": "WMS.Server\\appsettings.json",
@@ -95,12 +115,11 @@
               "RelativeToolTip": "WMS.Server\\appsettings.json",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-11-21T10:41:24.919Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 8,
               "Title": ".env",
               "DocumentMoniker": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\.env",
               "RelativeDocumentMoniker": "wms.client\\.env",
@@ -108,12 +127,11 @@
               "RelativeToolTip": "wms.client\\.env",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-11-22T05:31:37.612Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 7,
               "Title": "vite.config.js",
               "DocumentMoniker": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\vite.config.js",
               "RelativeDocumentMoniker": "wms.client\\vite.config.js",
@@ -121,8 +139,7 @@
               "RelativeToolTip": "wms.client\\vite.config.js",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-11-22T05:32:10.707Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -139,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "App.jsx",
               "DocumentMoniker": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\src\\App.jsx",
               "RelativeDocumentMoniker": "wms.client\\src\\App.jsx",
@@ -147,12 +164,11 @@
               "RelativeToolTip": "wms.client\\src\\App.jsx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2024-11-22T05:31:57.859Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "routes.jsx",
               "DocumentMoniker": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\src\\routes.jsx",
               "RelativeDocumentMoniker": "wms.client\\src\\routes.jsx",
@@ -160,12 +176,11 @@
               "RelativeToolTip": "wms.client\\src\\routes.jsx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2024-11-22T05:32:44.072Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "auth.jsx",
               "DocumentMoniker": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\src\\layouts\\auth.jsx",
               "RelativeDocumentMoniker": "wms.client\\src\\layouts\\auth.jsx",
@@ -173,25 +188,11 @@
               "RelativeToolTip": "wms.client\\src\\layouts\\auth.jsx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2024-11-22T05:34:29.396Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "dashboard.jsx",
-              "DocumentMoniker": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\src\\layouts\\dashboard.jsx",
-              "RelativeDocumentMoniker": "wms.client\\src\\layouts\\dashboard.jsx",
-              "ToolTip": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\src\\layouts\\dashboard.jsx",
-              "RelativeToolTip": "wms.client\\src\\layouts\\dashboard.jsx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-11-22T05:34:32.019Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
               "Title": "sign-in.jsx",
               "DocumentMoniker": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\src\\pages\\auth\\sign-in.jsx",
               "RelativeDocumentMoniker": "wms.client\\src\\pages\\auth\\sign-in.jsx",
@@ -199,27 +200,18 @@
               "RelativeToolTip": "wms.client\\src\\pages\\auth\\sign-in.jsx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2024-11-22T07:19:19.949Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserProfileController.cs",
-              "DocumentMoniker": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Server\\Controllers\\UserProfileController.cs",
-              "RelativeDocumentMoniker": "WMS.Server\\Controllers\\UserProfileController.cs",
-              "ToolTip": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Server\\Controllers\\UserProfileController.cs",
-              "RelativeToolTip": "WMS.Server\\Controllers\\UserProfileController.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T10:42:36.213Z",
+              "Title": "CreateUser.jsx",
+              "DocumentMoniker": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\src\\pages\\uac\\CreateUser.jsx",
+              "RelativeDocumentMoniker": "wms.client\\src\\pages\\uac\\CreateUser.jsx",
+              "ToolTip": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\src\\pages\\uac\\CreateUser.jsx",
+              "RelativeToolTip": "wms.client\\src\\pages\\uac\\CreateUser.jsx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-11-22T11:14:52.37Z",
               "EditorCaption": ""
             },
             {
@@ -231,43 +223,113 @@
               "ToolTip": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\src\\widgets\\layout\\sidenav.jsx",
               "RelativeToolTip": "wms.client\\src\\widgets\\layout\\sidenav.jsx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-11-22T05:48:57.357Z",
+              "WhenOpened": "2024-11-22T05:48:57.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChangePassword.jsx",
+              "DocumentMoniker": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\src\\pages\\uac\\ChangePassword.jsx",
+              "RelativeDocumentMoniker": "wms.client\\src\\pages\\uac\\ChangePassword.jsx",
+              "ToolTip": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\src\\pages\\uac\\ChangePassword.jsx",
+              "RelativeToolTip": "wms.client\\src\\pages\\uac\\ChangePassword.jsx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-11-22T11:09:26.654Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 9,
+              "Title": "footer.jsx",
+              "DocumentMoniker": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\src\\widgets\\layout\\footer.jsx",
+              "RelativeDocumentMoniker": "wms.client\\src\\widgets\\layout\\footer.jsx",
+              "ToolTip": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\src\\widgets\\layout\\footer.jsx",
+              "RelativeToolTip": "wms.client\\src\\widgets\\layout\\footer.jsx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-11-26T05:31:55.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserRolePermission.jsx",
+              "DocumentMoniker": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\src\\pages\\uac\\UserRolePermission.jsx",
+              "RelativeDocumentMoniker": "wms.client\\src\\pages\\uac\\UserRolePermission.jsx",
+              "ToolTip": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\src\\pages\\uac\\UserRolePermission.jsx",
+              "RelativeToolTip": "wms.client\\src\\pages\\uac\\UserRolePermission.jsx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-11-22T11:15:44.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "dashboard.jsx",
+              "DocumentMoniker": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\src\\layouts\\dashboard.jsx",
+              "RelativeDocumentMoniker": "wms.client\\src\\layouts\\dashboard.jsx",
+              "ToolTip": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\src\\layouts\\dashboard.jsx",
+              "RelativeToolTip": "wms.client\\src\\layouts\\dashboard.jsx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-11-22T11:19:16.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Server\\Controllers\\UserProfileController.cs",
+              "RelativeDocumentMoniker": "WMS.Server\\Controllers\\UserProfileController.cs",
+              "ToolTip": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\WMS.Server\\Controllers\\UserProfileController.cs",
+              "RelativeToolTip": "WMS.Server\\Controllers\\UserProfileController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T10:42:36.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "dashboard-navbar.jsx",
               "DocumentMoniker": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\src\\widgets\\layout\\dashboard-navbar.jsx",
               "RelativeDocumentMoniker": "wms.client\\src\\widgets\\layout\\dashboard-navbar.jsx",
               "ToolTip": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\src\\widgets\\layout\\dashboard-navbar.jsx",
               "RelativeToolTip": "wms.client\\src\\widgets\\layout\\dashboard-navbar.jsx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-11-22T06:05:32.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T06:05:32.995Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "index.jsx",
               "DocumentMoniker": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\src\\context\\index.jsx",
               "RelativeDocumentMoniker": "wms.client\\src\\context\\index.jsx",
               "ToolTip": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\src\\context\\index.jsx",
               "RelativeToolTip": "wms.client\\src\\context\\index.jsx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-11-22T05:53:00.073Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T05:53:00.073Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 15,
               "Title": "configurator.jsx",
               "DocumentMoniker": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\src\\widgets\\layout\\configurator.jsx",
               "RelativeDocumentMoniker": "wms.client\\src\\widgets\\layout\\configurator.jsx",
               "ToolTip": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\src\\widgets\\layout\\configurator.jsx",
               "RelativeToolTip": "wms.client\\src\\widgets\\layout\\configurator.jsx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-11-22T06:07:59.563Z",
+              "WhenOpened": "2024-11-22T06:07:59.563Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateUserRole.jsx",
+              "DocumentMoniker": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\src\\pages\\uac\\CreateUserRole.jsx",
+              "RelativeDocumentMoniker": "wms.client\\src\\pages\\uac\\CreateUserRole.jsx",
+              "ToolTip": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\src\\pages\\uac\\CreateUserRole.jsx",
+              "RelativeToolTip": "wms.client\\src\\pages\\uac\\CreateUserRole.jsx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-11-22T11:15:37.119Z",
               "EditorCaption": ""
             }
           ]

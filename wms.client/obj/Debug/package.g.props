@@ -8,16 +8,26 @@
     <PackageJsonScriptsDev Condition="$(PackageJsonScriptsDev) == ''">vite</PackageJsonScriptsDev>
     <PackageJsonScriptsBuild Condition="$(PackageJsonScriptsBuild) == ''">vite build</PackageJsonScriptsBuild>
     <PackageJsonScriptsPreview Condition="$(PackageJsonScriptsPreview) == ''">vite preview</PackageJsonScriptsPreview>
+    <PackageJsonDependenciesEmotionReact Condition="$(PackageJsonDependenciesEmotionReact) == ''">^11.13.5</PackageJsonDependenciesEmotionReact>
+    <PackageJsonDependenciesEmotionStyled Condition="$(PackageJsonDependenciesEmotionStyled) == ''">^11.13.5</PackageJsonDependenciesEmotionStyled>
     <PackageJsonDependenciesHeroiconsReact Condition="$(PackageJsonDependenciesHeroiconsReact) == ''">2.0.18</PackageJsonDependenciesHeroiconsReact>
     <PackageJsonDependenciesMaterialTailwindReact Condition="$(PackageJsonDependenciesMaterialTailwindReact) == ''">2.1.4</PackageJsonDependenciesMaterialTailwindReact>
+    <PackageJsonDependenciesMuiIconsMaterial Condition="$(PackageJsonDependenciesMuiIconsMaterial) == ''">^6.1.8</PackageJsonDependenciesMuiIconsMaterial>
+    <PackageJsonDependenciesMuiMaterial Condition="$(PackageJsonDependenciesMuiMaterial) == ''">^6.1.8</PackageJsonDependenciesMuiMaterial>
     <PackageJsonDependenciesReduxjsToolkit Condition="$(PackageJsonDependenciesReduxjsToolkit) == ''">^2.3.0</PackageJsonDependenciesReduxjsToolkit>
     <PackageJsonDependenciesApexcharts Condition="$(PackageJsonDependenciesApexcharts) == ''">3.44.0</PackageJsonDependenciesApexcharts>
     <PackageJsonDependenciesAxios Condition="$(PackageJsonDependenciesAxios) == ''">^1.7.7</PackageJsonDependenciesAxios>
     <PackageJsonDependenciesCryptoJs Condition="$(PackageJsonDependenciesCryptoJs) == ''">^4.2.0</PackageJsonDependenciesCryptoJs>
+    <PackageJsonDependenciesI Condition="$(PackageJsonDependenciesI) == ''">^0.3.7</PackageJsonDependenciesI>
+    <PackageJsonDependenciesLodash Condition="$(PackageJsonDependenciesLodash) == ''">^4.17.21</PackageJsonDependenciesLodash>
+    <PackageJsonDependenciesNpm Condition="$(PackageJsonDependenciesNpm) == ''">^10.9.1</PackageJsonDependenciesNpm>
     <PackageJsonDependenciesPropTypes Condition="$(PackageJsonDependenciesPropTypes) == ''">15.8.1</PackageJsonDependenciesPropTypes>
     <PackageJsonDependenciesReact Condition="$(PackageJsonDependenciesReact) == ''">18.2.0</PackageJsonDependenciesReact>
     <PackageJsonDependenciesReactApexcharts Condition="$(PackageJsonDependenciesReactApexcharts) == ''">1.4.1</PackageJsonDependenciesReactApexcharts>
+    <PackageJsonDependenciesReactBootstrap Condition="$(PackageJsonDependenciesReactBootstrap) == ''">^2.10.6</PackageJsonDependenciesReactBootstrap>
+    <PackageJsonDependenciesReactDataTableComponent Condition="$(PackageJsonDependenciesReactDataTableComponent) == ''">^7.6.2</PackageJsonDependenciesReactDataTableComponent>
     <PackageJsonDependenciesReactDom Condition="$(PackageJsonDependenciesReactDom) == ''">18.2.0</PackageJsonDependenciesReactDom>
+    <PackageJsonDependenciesReactIcons Condition="$(PackageJsonDependenciesReactIcons) == ''">^5.3.0</PackageJsonDependenciesReactIcons>
     <PackageJsonDependenciesReactRedux Condition="$(PackageJsonDependenciesReactRedux) == ''">^9.1.2</PackageJsonDependenciesReactRedux>
     <PackageJsonDependenciesReactRouterDom Condition="$(PackageJsonDependenciesReactRouterDom) == ''">6.17.0</PackageJsonDependenciesReactRouterDom>
     <PackageJsonDependenciesReduxPersist Condition="$(PackageJsonDependenciesReduxPersist) == ''">^6.0.0</PackageJsonDependenciesReduxPersist>
