@@ -58,16 +58,16 @@ export const routes = [
         title: "uac", // Add UAC module
         pages: [
             {
-                icon: <KeyIcon {...icon} />, // Icon for Change Password
-                name: "change password",
-                path: "/uac/change-password",
-                element: <ChangePassword />,
-            },
-            {
                 icon: <UserPlusIcon {...icon} />, // Icon for Create User
                 name: "create user",
                 path: "/uac/create-user",
                 element: <CreateUser />,
+            },
+            {
+                icon: <KeyIcon {...icon} />, // Icon for Change Password
+                name: "change password",
+                path: "/uac/change-password",
+                element: <ChangePassword />,
             },
             {
                 icon: <UserGroupIcon {...icon} />, // Icon for Create User Role

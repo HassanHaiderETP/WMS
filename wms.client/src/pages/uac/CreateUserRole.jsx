@@ -55,7 +55,6 @@ function CreateUserRole({ darkMode }) {
 
             if (response.status === 200) {
                 alert('Role created successfully!');
-                document.getElementById('closebtn').click();
                 resetForm();
                 fetchRoles();
                 setModalOpen(false);
