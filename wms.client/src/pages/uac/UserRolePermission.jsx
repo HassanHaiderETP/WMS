@@ -1,10 +1,23 @@
 import React, { useEffect, useState } from 'react';
 import DataTable from 'react-data-table-component';
+import Swal from 'sweetalert2';
+import {
+    Card,
+    CardHeader,
+    CardBody,
+    Typography,
+    Avatar,
+    Chip,
+    Input,
+    Tooltip,
+    Progress,
+} from "@material-tailwind/react";
 
 function UserRolePermission({ darkMode }) {
     const [roles, setRoles] = useState([]);
     const [selectedRole, setSelectedRole] = useState('');
     const [tableData, setTableData] = useState([]);
+    const [searchTerm, setSearchTerm] = useState('');
     const [loading, setLoading] = useState(false);
     const API_url = 'https://' + import.meta.env.VITE_API_URL;
     const token = localStorage.getItem('authToken');
@@ -108,21 +121,51 @@ function UserRolePermission({ darkMode }) {
             });
 
             if (response.ok) {
-                alert('Permissions updated successfully!');
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Created!',
+                    text: 'Permissions updated successfully!',
+                    confirmButtonText: 'OK',
+                    confirmButtonColor: '#3085d6',
+                });
             } else {
                 console.error('Response error:', await response.text());
-                alert('Error updating permissions.');
+                if (!SelectedUserID.userId) {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Failed!',
+                        text: 'Failed to update permissions.',
+                        confirmButtonText: 'OK',
+                        confirmButtonColor: '#3085d6',
+                    });
+                    return;
+                }
             }
         } catch (error) {
             console.error('Fetch error:', error);
-            alert('An error occurred while updating permissions.');
+            Swal.fire({
+                icon: 'error',
+                title: 'Error',
+                text: 'An error occurred while updating permissions.',
+                confirmButtonText: 'OK',
+                confirmButtonColor: '#3085d6',
+            });
         }
     };
 
+    // Filter the data based on the search term
+    const filteredData = tableData.filter((permission) => {
+        const normalizedSearchTerm = searchTerm.toLowerCase();
+
+        return (
+            permission.module.toString().toLowerCase().includes(normalizedSearchTerm) ||
+            permission.permission.toString().toLowerCase().includes(normalizedSearchTerm) 
+        );
+    });
 
     // Table columns
     const columns = [
-        { name: 'Sr#', selector: (_, index) => index + 1, sortable: true },
+        { name: 'Sr#', selector: (_, index) => index + 1 },
         { name: 'Module', selector: row => row.module, sortable: true },
         { name: 'Permission', selector: row => row.permission, sortable: true },
         {
@@ -164,7 +207,7 @@ function UserRolePermission({ darkMode }) {
             <section>
                 <div className="flex justify-between md:flex-col items-start">
                     <div className="">
-                            <h2 className="mb-4 font-bold">User Role Permission</h2>
+                            <h2 className="mt-2 mb-4 font-bold">User Role Permission</h2>
                     </div>
 
                     {/* Dropdown for roles */}
@@ -191,18 +234,35 @@ function UserRolePermission({ darkMode }) {
                     </div>
                 </div>
 
-                <div className="w-full mt-4">
-                    <div className="overflow-x-auto">
-                    <DataTable
-                        columns={columns}
-                        data={tableData}
-                        pagination
-                        highlightOnHover
-                        pointerOnHover
-                        theme={darkMode ? 'dark' : 'default'}
-                        customStyles={customStyles}
+                <div className="mt-4 mr-auto md:mr-4 md:w-56">
+                    <Input
+                        label="Search"
+                        value={searchTerm}
+                        onChange={(e) => setSearchTerm(e.target.value)}
                     />
-                    </div>
+                </div>
+
+                <div className="mt-12 mb-8 flex flex-col gap-12">
+                    <Card>
+                        <CardHeader variant="gradient" color="blue" className="mb-8 p-6">
+                            <Typography variant="h6" color="white">
+                                Role Permissions Table
+                            </Typography>
+                        </CardHeader>
+                        <CardBody className="overflow-x-scroll px-0 pt-0 pb-2">
+                            <div className="h-[17.5rem] overflow-y-scroll">
+                                <DataTable
+                                    columns={columns}
+                                    data={filteredData}
+                                    pagination
+                                    highlightOnHover
+                                    pointerOnHover
+                                    theme={darkMode ? 'dark' : 'default'}
+                                    customStyles={customStyles}
+                                />
+                            </div>
+                        </CardBody>
+                    </Card>
                 </div>
             </section>
         </>

@@ -3,7 +3,8 @@ import { FaEye, FaEyeSlash } from 'react-icons/fa';
 import axios from 'axios';
 import { useSelector } from 'react-redux';
 import CryptoJS from 'crypto-js';
-import { useNavigate} from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
+import Swal from 'sweetalert2';
 
 function ChangePassword({ darkMode }) {
     const [users, setUsers] = useState([]);
@@ -25,7 +26,13 @@ function ChangePassword({ darkMode }) {
         try {
             
             if (!token) {
-                alert('Authentication token is missing. Please log in again.');
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Error',
+                    text: 'Authentication token is missing. Please log in again.',
+                    confirmButtonText: 'OK',
+                    confirmButtonColor: '#3085d6',
+                });
                 return;
             }
 
@@ -38,7 +45,13 @@ function ChangePassword({ darkMode }) {
             setUsers(response.data);
         } catch (error) {
             console.error('Error fetching users:', error);
-            alert(`Error fetching users: ${error.response?.data || error.message}`);
+            Swal.fire({
+                icon: 'error',
+                title: 'Error',
+                text: `Error fetching users: ${error.response?.data || error.message}`,
+                confirmButtonText: 'OK',
+                confirmButtonColor: '#3085d6',
+            });
         }
     };
 
@@ -121,14 +134,26 @@ function ChangePassword({ darkMode }) {
 
     const handleSave = async () => {
         if (!newPassword) {
-            alert("Password cannot be empty!");
+            Swal.fire({
+                icon: 'error',
+                title: 'Error',
+                text: 'Password cannot be empty!',
+                confirmButtonText: 'OK',
+                confirmButtonColor: '#3085d6',
+            });
             return;
         }
 
         try {
             const token = localStorage.getItem('authToken');
             if (!token) {
-                alert('Authentication token is missing. Please log in again.');
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Error',
+                    text: 'Authentication token is missing. Please log in again.',
+                    confirmButtonText: 'OK',
+                    confirmButtonColor: '#3085d6',
+                });
                 return;
             }
 
@@ -164,23 +189,42 @@ function ChangePassword({ darkMode }) {
             //);
 
             if (response.status === 200) {
-                alert('Password updated successfully.');
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Updated!',
+                    text: 'Password updated successfully.',
+                    confirmButtonText: 'OK',
+                    confirmButtonColor: '#3085d6',
+                });
                 navigate('/')
 
             } else {
-                const errorData = await response.json();
-                throw new Error(errorData?.message || 'Failed to update password.');
+                //const errorData = await response.json();
+                //throw new Error(errorData?.message || 'Failed to update password.');
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Failed!',
+                    text: 'Failed to update password.',
+                    confirmButtonText: 'OK',
+                    confirmButtonColor: '#3085d6',
+                });
             }
         } catch (error) {
             console.error('Error saving password:', error);
-            alert(`Error updating password: ${error.message}`);
+            Swal.fire({
+                icon: 'error',
+                title: 'Error',
+                text: `Error updating password: ${error.message}`,
+                confirmButtonText: 'OK',
+                confirmButtonColor: '#3085d6',
+            });
         }
     };
 
     return (
         <>
             <div>
-                <h2 className="mb-4 font-bold">Change Password</h2>
+                <h2 className="mt-2 mb-4 font-bold">Change Password</h2>
             </div>
             <div className={`flex items-center justify-center ${darkMode ? 'bg-gray-900' : 'bg-white-100'}`}>
                 <div className={`p-8 max-w-lg w-full ${darkMode ? 'bg-gray-900 text-white' : 'bg-white shadow-lg rounded-lg text-black'}`}>
@@ -253,7 +297,7 @@ function ChangePassword({ darkMode }) {
                             Save
                         </button>
                         <button
-                            className={`bg-red-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline ${darkMode ? 'bg-gray-700' : 'bg-gray-600'}`}
+                            className={'bg-gray-500 hover:bg-gray-600  text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'}
                             type="button"
                             onClick={() => setNewPassword(originalPassword)}
                         >

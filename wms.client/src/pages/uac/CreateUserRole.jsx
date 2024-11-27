@@ -3,12 +3,25 @@ import axios from 'axios';
 import DataTable from 'react-data-table-component';
 import DeleteOutlinedIcon from '@mui/icons-material/DeleteOutlined';
 import ModeEditOutlineOutlinedIcon from '@mui/icons-material/ModeEditOutlineOutlined';
+import Swal from 'sweetalert2';
+import {
+    Card,
+    CardHeader,
+    CardBody,
+    Typography,
+    Avatar,
+    Chip,
+    Input,
+    Tooltip,
+    Progress,
+} from "@material-tailwind/react";
 
 function CreateUserRole({ darkMode }) {
     const [isCreateVisible, setIsCreateVisible] = useState(true);
     const [isUpdateVisible, setIsUpdateVisible] = useState(false);
     const [modalLabel, setModalLabel] = useState('Create Role');
     const [roles, setRoles] = useState([]);
+    const [searchTerm, setSearchTerm] = useState('');
     const [roleDescription, setRoleDescription] = useState('');
     const [selectedRoleID, setSelectedRoleID] = useState(null);
     const userId = localStorage.getItem('userId');
@@ -34,14 +47,26 @@ function CreateUserRole({ darkMode }) {
             setRoles(response.data);
         } catch (error) {
             console.error('Error fetching roles:', error);
-            alert(`Error fetching roles: ${error.message}`);
+            Swal.fire({
+                icon: 'error',
+                title: 'Error',
+                text: `Error fetching roles: ${error.message}`,
+                confirmButtonText: 'OK',
+                confirmButtonColor: '#3085d6',
+            });
         }
     };
 
     // Handle form submission for creating a new role
     const handleCreateRole = async () => {
         if (!roleDescription) {
-            alert('Please fill in all fields.');
+            Swal.fire({
+                icon: 'error',
+                title: 'Error',
+                text: 'Please fill in all fields.',
+                confirmButtonText: 'OK',
+                confirmButtonColor: '#3085d6',
+            });
             return;
         }
 
@@ -54,14 +79,26 @@ function CreateUserRole({ darkMode }) {
             const response = await api.post('api/UserRoles/Add', role);
 
             if (response.status === 200) {
-                alert('Role created successfully!');
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Created!',
+                    text: 'Role created successfully!',
+                    confirmButtonText: 'OK',
+                    confirmButtonColor: '#3085d6',
+                });
                 resetForm();
                 fetchRoles();
                 setModalOpen(false);
             }
         } catch (error) {
             console.error('Error creating role:', error);
-            alert(`A role with the same description already exists.\n${error.message}`);
+            Swal.fire({
+                icon: 'error',
+                title: 'Error',
+                text: `A role with the same description already exists.\n${error.message}`,
+                confirmButtonText: 'OK',
+                confirmButtonColor: '#3085d6',
+            });
             resetForm();
         }
     };
@@ -69,12 +106,24 @@ function CreateUserRole({ darkMode }) {
     // Handle updating an existing role
     const handleUpdateRole = async () => {
         if (!roleDescription) {
-            alert('Please fill in all fields.');
+            Swal.fire({
+                icon: 'error',
+                title: 'Error',
+                text: 'Please fill in all fields.',
+                confirmButtonText: 'OK',
+                confirmButtonColor: '#3085d6',
+            });
             return;
         }
 
         if (!selectedRoleID) {
-            alert('Select a role from the grid!');
+            Swal.fire({
+                icon: 'error',
+                title: 'Error',
+                text: 'Select a role from the grid!',
+                confirmButtonText: 'OK',
+                confirmButtonColor: '#3085d6',
+            });
             return;
         }
 
@@ -87,15 +136,26 @@ function CreateUserRole({ darkMode }) {
             const response = await api.post(`api/UserRoles/Update/${selectedRoleID}`, role);
 
             if (response.status === 200) {
-                alert('Role updated successfully!');
-                document.getElementById('closebtn').click();
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Updated!',
+                    text: 'Role updated successfully!',
+                    confirmButtonText: 'OK',
+                    confirmButtonColor: '#3085d6',
+                });
                 resetForm();
                 fetchRoles();
                 setModalOpen(false);
             }
         } catch (error) {
             console.error('Error updating role:', error);
-            alert(`Error updating role: ${error.message}`);
+            Swal.fire({
+                icon: 'error',
+                title: 'Error',
+                text: `Error updating role: ${error.message}`,
+                confirmButtonText: 'OK',
+                confirmButtonColor: '#3085d6',
+            });
             resetForm();
         }
     };
@@ -103,27 +163,61 @@ function CreateUserRole({ darkMode }) {
     // Handle deleting a role
     const handleDeleteRole = async (selectedRoleID) => {
         if (!selectedRoleID.rolesId) {
-            alert('Please select a role to delete.');
+            Swal.fire({
+                icon: 'error',
+                title: 'Error',
+                text: 'Please select a role to delete.',
+                confirmButtonText: 'OK',
+                confirmButtonColor: '#3085d6',
+            });
             return;
         }
 
-        const confirmation = window.confirm('Are you sure you want to delete this role?');
-        if (!confirmation) return;
+        const confirmation = await Swal.fire({
+            title: 'Are you sure?',
+            text: 'You want to delete this role?',
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonText: 'Yes, delete!',
+            cancelButtonText: 'No, cancel',
+            confirmButtonColor: '#d33',
+            cancelButtonColor: '#3085d6',
+        });
+
+        if (!confirmation.isConfirmed) return;
 
         try {
             const response = await api.post(`api/UserRoles/Delete/${selectedRoleID.rolesId}`);
 
             if (response.status === 200) {
-                alert('Role deleted successfully!');
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Created!',
+                    text: 'Role deleted successfully!',
+                    confirmButtonText: 'OK',
+                    confirmButtonColor: '#3085d6',
+                });
                 fetchRoles();
                 resetForm();
             } else {
-                alert('Failed to delete role.');
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Failed!',
+                    text: 'Failed to delete role.',
+                    confirmButtonText: 'OK',
+                    confirmButtonColor: '#3085d6',
+                });
                 resetForm();
             }
         } catch (error) {
             console.error('Error deleting role:', error);
-            alert('Error deleting role: ' + error.message);
+            Swal.fire({
+                icon: 'error',
+                title: 'Error',
+                text: 'Error deleting role: ' + error.message,
+                confirmButtonText: 'OK',
+                confirmButtonColor: '#3085d6',
+            });
         }
     };
 
@@ -155,11 +249,21 @@ function CreateUserRole({ darkMode }) {
         setModalOpen(false);
     };
 
+    // Filter the data based on the search term
+    const filteredData = roles.filter((role) => {
+        const normalizedSearchTerm = searchTerm.toLowerCase();
+
+        return (
+            role.createdBy.toString().toLowerCase().includes(normalizedSearchTerm) ||
+            role.rolesDesc.toString().toLowerCase().includes(normalizedSearchTerm)
+        );
+    });
+
     // Table columns
     const columns = [
-        { name: <strong>Sr#</strong>, selector: (_, index) => index + 1, sortable: true },
+        { name: <strong>Sr#</strong>, selector: (_, index) => index + 1},
         { name: <strong>Role Description</strong>, selector: row => row.rolesDesc, sortable: true },
-        { name: <strong>Created By</strong>, selector: row => row.createdBy },
+        { name: <strong>Created By</strong>, selector: row => row.createdBy, sortable: true },
         {
             name: <strong>Action</strong>,
             selector: row => row.userId,
@@ -213,7 +317,7 @@ function CreateUserRole({ darkMode }) {
         <>
             <section>
                 <div className="flex justify-between  md:flex-col items-start">
-                    <h2 className="mb-4 font-bold">Create User Role</h2>
+                    <h2 className="mt-2 mb-4 font-bold">Create User Role</h2>
                     <button
                         type="button"
                         className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded"
@@ -287,18 +391,35 @@ function CreateUserRole({ darkMode }) {
                     </div>
                 </div>
 
-                <div className="w-full mt-4">
-                    <div className="overflow-x-auto">
-                        <DataTable
-                            columns={columns}
-                            data={roles}
-                            pagination
-                            highlightOnHover
-                            pointerOnHover
-                            theme={darkMode ? 'dark' : 'default'}
-                            customStyles={customStyles}
-                        />
-                    </div>
+                <div className="mt-4 mr-auto md:mr-4 md:w-56">
+                    <Input
+                        label="Search"
+                        value={searchTerm}
+                        onChange={(e) => setSearchTerm(e.target.value)}
+                    />
+                </div>
+
+                <div className="mt-12 mb-8 flex flex-col gap-12">
+                    <Card>
+                        <CardHeader variant="gradient" color="blue" className="mb-8 p-6">
+                            <Typography variant="h6" color="white">
+                                Roles Table
+                            </Typography>
+                        </CardHeader>
+                        <CardBody className="overflow-x-scroll px-0 pt-0 pb-2">
+                            <div className="h-[17.5rem] overflow-y-scroll">
+                                <DataTable
+                                    columns={columns}
+                                    data={filteredData}
+                                    pagination
+                                    highlightOnHover
+                                    pointerOnHover
+                                    theme={darkMode ? 'dark' : 'default'}
+                                    customStyles={customStyles}
+                                />
+                            </div>
+                        </CardBody>
+                    </Card>
                 </div>
             </section>
         </>

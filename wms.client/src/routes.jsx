@@ -39,12 +39,12 @@ export const routes = [
                 path: "/profile",
                 element: <Profile />,
             },
-            {
-                icon: <TableCellsIcon {...icon} />,
-                name: "tables",
-                path: "/tables",
-                element: <Tables />,
-            },
+            //{
+            //    icon: <TableCellsIcon {...icon} />,
+            //    name: "tables",
+            //    path: "/tables",
+            //    element: <Tables />,
+            //},
             {
                 icon: <InformationCircleIcon {...icon} />,
                 name: "notifications",
@@ -55,19 +55,14 @@ export const routes = [
     },
     {
         layout: "dashboard",
-        title: "uac", // Add UAC module
+        title: "uac",
+        collapsible: true,
         pages: [
             {
                 icon: <UserPlusIcon {...icon} />, // Icon for Create User
                 name: "create user",
                 path: "/uac/create-user",
                 element: <CreateUser />,
-            },
-            {
-                icon: <KeyIcon {...icon} />, // Icon for Change Password
-                name: "change password",
-                path: "/uac/change-password",
-                element: <ChangePassword />,
             },
             {
                 icon: <UserGroupIcon {...icon} />, // Icon for Create User Role
@@ -81,11 +76,18 @@ export const routes = [
                 path: "/uac/user-role-permission",
                 element: <UserRolePermission />,
             },
+            {
+                icon: <KeyIcon {...icon} />, // Icon for Change Password
+                name: "change password",
+                path: "/uac/change-password",
+                element: <ChangePassword />,
+            }
         ],
     },
     {
         title: "auth pages",
         layout: "auth",
+        collapsible: true,
         pages: [
             {
                 icon: <ServerStackIcon {...icon} />,
