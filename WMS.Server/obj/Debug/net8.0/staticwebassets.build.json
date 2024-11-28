@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Zaew86EAR/Vu6KWMlbBu9UJUgVtwuQia1f7JPBAPO5I=",
+  "Hash": "FX1RVSQsj9UX0vVpXHcmptHl1vi6bhX9xD27GqsRBuk=",
   "Source": "WMS.Server",
   "BasePath": "_content/WMS.Server",
   "Mode": "Default",
@@ -11,10 +11,10 @@
       "Version": 2,
       "Source": "wms.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
     }
   ],

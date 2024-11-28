@@ -15,6 +15,11 @@ import {
     Tooltip,
     Progress,
 } from "@material-tailwind/react";
+import {
+    useMaterialTailwindController,
+    setOpenConfigurator,
+    setOpenSidenav,
+} from "@/context";
 
 function CreateUser({ darkMode }) {
     const [isCreateVisible, setIsCreateVisible] = useState(true);
@@ -37,6 +42,13 @@ function CreateUser({ darkMode }) {
             Authorization: token ? `Bearer ${token}` : ''
         }
     });
+    const sidenavTypes = {
+        dark: "bg-gradient-to-br from-gray-800 to-gray-900",
+        white: "bg-white shadow-sm",
+        transparent: "bg-transparent",
+    };
+    const [controller, dispatch] = useMaterialTailwindController();
+    const { sidenavType, fixedNavbar, openSidenav } = controller;
 
     // Fetch Users and Roles on component mount
     useEffect(() => {
@@ -386,7 +398,7 @@ function CreateUser({ darkMode }) {
                     {/* Update Button */}
                     <button
                         type="button"
-                        onClick={() => handleRowClick(row)} // Pass the row data to handleUpdate
+                        onClick={() => handleRowClick(row)}
                         className="text-blue-500 hover:bg-blue-100 hover:text-blue-700 font-semibold py-2 px-3 rounded-lg transition-colors duration-300 ease-in-out"
                     >
                         <ModeEditOutlineOutlinedIcon />
@@ -395,7 +407,7 @@ function CreateUser({ darkMode }) {
                     {/* Delete Button */}
                     <button
                         type="button"
-                        onClick={() => handleDelete(row)} // Pass the row data to handleDelete
+                        onClick={() => handleDelete(row)}
                         className="text-red-500 hover:bg-red-100 hover:text-red-700 font-semibold py-2 px-3 rounded-lg transition-colors duration-300 ease-in-out"
                     >
                         <DeleteOutlinedIcon />
@@ -405,35 +417,100 @@ function CreateUser({ darkMode }) {
         },
     ];
 
-    const customStyles = {
+    const customStyles = (sidenavType) => ({
+        table: {
+            style: {
+                backgroundColor:
+                    sidenavType === "dark"
+                        ? "transparent"
+                        : sidenavType === "transparent"
+                            ? "transparent"
+                            : "#ffffff",
+                backgroundImage:
+                    sidenavType === "dark"
+                        ? "linear-gradient(to bottom right, #374151, #1f2937)"
+                        : "none",
+            },
+        },
         rows: {
             style: {
-                minHeight: '48px',
-                overflowWrap: 'break-word', // Add this line
+                minHeight: "48px",
+                backgroundColor:
+                    sidenavType === "dark" ? "transparent" : "#ffffff",
+                backgroundImage:
+                    sidenavType === "dark"
+                        ? "linear-gradient(to bottom right, #374151, #1f2937)"
+                        : "none",
+                color: sidenavType === "dark" ? "#f9fafb" : "#374151",
+                transition: "background-color 0.3s ease, background-image 0.3s ease",
+            },
+            hover: {
+                style: {
+                    backgroundImage:
+                        sidenavType === "dark"
+                            ? "linear-gradient(to bottom right, #1f2937, #111827)"
+                            : sidenavType === "transparent"
+                                ? "linear-gradient(to bottom right, #d1d5db, #e5e7eb)"
+                                : "#e5e7eb",
+                    backgroundColor: "transparent",
+                    boxShadow:
+                        sidenavType === "dark"
+                            ? "0 4px 8px rgba(0, 0, 0, 0.5)"
+                            : "0 2px 4px rgba(0, 0, 0, 0.2)",
+                    color: sidenavType === "dark" ? "#f9fafb" : "#374151",
+                    transition: "all 0.3s ease",
+                },
             },
         },
         headCells: {
             style: {
-                backgroundColor: '#f3f4f6',
-                color: '#374151',
-                fontWeight: 'bold',
-                textAlign: 'center',
+                backgroundColor:
+                    sidenavType === "dark" ? "#1f2937" : "#f3f4f6",
+                backgroundImage:
+                    sidenavType === "dark"
+                        ? "linear-gradient(to bottom right, #374151, #1f2937)"
+                        : "none",
+                color: sidenavType === "dark" ? "#f9fafb" : "#374151",
+                fontWeight: "bold",
             },
         },
         cells: {
             style: {
-                textAlign: 'center',
-                overflowWrap: 'break-word', // Add this line
+                color: sidenavType === "dark" ? "#f9fafb" : "#374151",
             },
         },
-    };
+        pagination: {
+            style: {
+                backgroundColor:
+                    sidenavType === "dark"
+                        ? "linear-gradient(to bottom right, #374151, #1f2937)"
+                        : sidenavType === "transparent"
+                            ? "transparent"
+                            : "#ffffff",
+                color: sidenavType === "dark" ? "#f9fafb" : "#374151",
+                borderTop: "1px solid #e5e7eb", // Add a border for separation if needed
+            },
+            pageButtonsStyle: {
+                color: sidenavType === "dark" ? "#f9fafb" : "#374151",
+                fill: sidenavType === "dark" ? "#f9fafb" : "#374151", // Icons for page buttons
+                "&:hover": {
+                    backgroundColor:
+                        sidenavType === "dark"
+                            ? "#4b5563" // Slightly lighter on hover
+                            : "#f3f4f6",
+                },
+            },
+        },
+    });
 
     return (
         <>
             <section>
                 <div className="flex justify-between md:flex-col items-start">
                     <div className="">
-                        <h2 className="mt-2 mb-4 font-bold">User Management</h2>
+                        <h2 className={`mt-2 mb-4 font-bold ${sidenavType === "dark" ? "text-white" : "text-blue-gray-500"}`}>
+                            User Management
+                        </h2>
                     </div>
                     <div className="">
                         {/* Button to trigger modal */}
@@ -471,13 +548,13 @@ function CreateUser({ darkMode }) {
                                     <div className="mb-4">
                                         <label className="form-label text-gray-700">Email</label>
                                         <input
-                                            type="email" // Changed to email type for validation
+                                            type="email"
                                             value={UserName}
                                             onChange={(e) => setUserName(e.target.value)}
                                             className="w-full p-2 border border-gray-300 rounded-md"
-                                            autoComplete="off" // Prevent browser auto-fill
-                                            required // Ensures that the field is filled before form submission
-                                            placeholder="Enter a valid email address" // Optional: helpful for users
+                                            autoComplete="off"
+                                            required
+                                            placeholder="Enter a valid email address"
                                         />
                                     </div>
                                     <div className="mb-4">
@@ -487,7 +564,7 @@ function CreateUser({ darkMode }) {
                                             value={Password}
                                             onChange={(e) => setPassword(e.target.value)}
                                             className="w-full p-2 border border-gray-300 rounded-md"
-                                            autoComplete="new-password" // Prevent browser auto-fill
+                                            autoComplete="new-password"
                                             placeholder="Enter password"
                                         />
                                     </div>
@@ -552,12 +629,13 @@ function CreateUser({ darkMode }) {
                         label="Search"
                         value={searchTerm}
                         onChange={(e) => setSearchTerm(e.target.value)}
+                        className={`${sidenavType === "dark" ? "text-white" : "text-blue-gray-500"}` }
                     />
                 </div>
 
                 <div className="mt-12 mb-8 flex flex-col gap-12">
-                    <Card>
-                        <CardHeader variant="gradient" color="blue" className="mb-8 p-6">
+                    <Card className={`${sidenavTypes[sidenavType]}` }>
+                        <CardHeader variant="gradient" color="blue" className={`mb-8 p-6 ${sidenavTypes[sidenavType]}`}>
                             <Typography variant="h6" color="white">
                                 Users Table
                             </Typography>
@@ -570,8 +648,8 @@ function CreateUser({ darkMode }) {
                                     pagination
                                     highlightOnHover
                                     pointerOnHover
-                                    theme={darkMode ? 'dark' : 'default'}
-                                    customStyles={customStyles}
+                                    //theme={darkMode ? 'dark' : 'default'}
+                                    customStyles={customStyles(sidenavType)}
                                 />
                              </div>
                         </CardBody>

@@ -28,17 +28,21 @@ import {
 
 export function DashboardNavbar() {
   const [controller, dispatch] = useMaterialTailwindController();
-  const { fixedNavbar, openSidenav } = controller;
+  const { sidenavType, fixedNavbar, openSidenav } = controller;
   const { pathname } = useLocation();
   const [layout, page] = pathname.split("/").filter((el) => el !== "");
+  const sidenavTypes = {
+    dark: "bg-gradient-to-br from-gray-800 to-gray-900",
+    white: "bg-white shadow-sm",
+    transparent: "bg-transparent",
+  };
 
   return (
-    <Navbar
-      color={fixedNavbar ? "white" : "transparent"}
-      className={`rounded-xl transition-all ${
-        fixedNavbar
-          ? "sticky top-4 z-40 py-3 shadow-md shadow-blue-gray-500/5"
-          : "px-0 py-1"
+      <Navbar
+      color={fixedNavbar ? (sidenavType === "dark" ? "white" : "blue-gray") : "transparent"}
+      className={`rounded-xl transition-all ${fixedNavbar
+        ? `sticky top-4 z-40 py-3 shadow-md shadow-blue-gray-500/5 ${sidenavTypes[sidenavType]}`
+          : `top-4 z-40 py-3 shadow-md shadow-blue-gray-500/5 ${sidenavTypes[sidenavType]}`
       }`}
       fullWidth
       blurred={fixedNavbar}
@@ -51,9 +55,9 @@ export function DashboardNavbar() {
             }`}
           >
             <Link to={`/${layout}`}>
-              <Typography
+                <Typography
                 variant="small"
-                color="blue-gray"
+                color={sidenavType === "dark" ? "white" : "blue-gray"}
                 className="font-normal opacity-50 transition-all hover:text-blue-500 hover:opacity-100"
               >
                 {layout}
@@ -61,13 +65,13 @@ export function DashboardNavbar() {
             </Link>
             <Typography
               variant="small"
-              color="blue-gray"
+              color={sidenavType === "dark" ? "white" : "blue-gray"}
               className="font-normal"
             >
               {page}
             </Typography>
           </Breadcrumbs>
-          <Typography variant="h6" color="blue-gray">
+          <Typography variant="h6" color={sidenavType === "dark" ? "white" : "blue-gray"}>
             {page}
           </Typography>
         </div>
@@ -79,10 +83,10 @@ export function DashboardNavbar() {
           <Link to="/auth/sign-in">
             <Button
               variant="text"
-              color="blue-gray"
+              color={sidenavType === "dark" ? "white" : "blue-gray"}
               className="hidden items-center gap-1 px-4 xl:flex normal-case"
             >
-              <UserCircleIcon className="h-5 w-5 text-blue-gray-500" />
+              <UserCircleIcon className="h-5 w-5 " color={sidenavType === "dark" ? "white" : "blue-gray"} />
               Sign In
             </Button>
             <IconButton
@@ -97,7 +101,7 @@ export function DashboardNavbar() {
           <Menu>
             <MenuHandler>
               <IconButton variant="text" color="blue-gray">
-                <BellIcon className="h-5 w-5 text-blue-gray-500" />
+                <BellIcon className="h-5 w-5" color={sidenavType === "dark" ? "white" : "blue-gray"} />
               </IconButton>
             </MenuHandler>
             <MenuList className="w-max border-0">
@@ -186,7 +190,7 @@ export function DashboardNavbar() {
             color="blue-gray"
             onClick={() => setOpenConfigurator(dispatch, true)}
           >
-            <Cog6ToothIcon className="h-5 w-5 text-blue-gray-500" />
+            <Cog6ToothIcon className="h-5 w-5" color={sidenavType === "dark" ? "white" : "blue-gray"} />
           </IconButton>
         </div>
       </div>

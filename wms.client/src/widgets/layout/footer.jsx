@@ -1,15 +1,27 @@
 import PropTypes from "prop-types";
 import { Typography } from "@material-tailwind/react";
 import { HeartIcon } from "@heroicons/react/24/solid";
+import {
+    useMaterialTailwindController,
+    setOpenConfigurator,
+    setOpenSidenav,
+} from "@/context";
 
 export function Footer({ brandName, brandLink, routes }) {
-  const year = new Date().getFullYear();
+    const year = new Date().getFullYear();
+    const sidenavTypes = {
+        dark: "bg-gradient-to-br from-gray-800 to-gray-900",
+        white: "bg-white shadow-sm",
+        transparent: "bg-transparent",
+    };
+    const [controller, dispatch] = useMaterialTailwindController();
+    const { sidenavType, fixedNavbar, openSidenav } = controller;
 
   return (
     <footer className="py-2">
       <div className="flex w-full flex-wrap items-center justify-center gap-6 px-2 md:justify-between">
-        <Typography variant="small" className="font-normal text-inherit">
-          &copy; {year} {", "}
+        <Typography variant="small" className={`font-normal text-inherit ${sidenavType === "dark" ? "text-white" : "text-blue-gray-500"}`}>
+          &copy; {year}{", "}
           {/*, made with{" "}*/}
           {/*<HeartIcon className="-mt-0.5 inline-block h-3.5 w-3.5 text-red-600" /> by{" "}*/}
           <a

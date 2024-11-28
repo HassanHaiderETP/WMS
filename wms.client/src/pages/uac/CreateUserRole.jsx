@@ -192,7 +192,7 @@ function CreateUserRole({ darkMode }) {
             if (response.status === 200) {
                 Swal.fire({
                     icon: 'success',
-                    title: 'Created!',
+                    title: 'Deleted!',
                     text: 'Role deleted successfully!',
                     confirmButtonText: 'OK',
                     confirmButtonColor: '#3085d6',

@@ -123,7 +123,7 @@ function UserRolePermission({ darkMode }) {
             if (response.ok) {
                 Swal.fire({
                     icon: 'success',
-                    title: 'Created!',
+                    title: 'Updated!',
                     text: 'Permissions updated successfully!',
                     confirmButtonText: 'OK',
                     confirmButtonColor: '#3085d6',

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3H9ZG36qSH6hQ4EoN6H+DfDUssv3DMVqYsL3jFYSys8=",
+  "Hash": "N4Q/sc54MXLdCsAfRghSTn8YiWThjVcfbg2YCujb0UA=",
   "Source": "WMS.Server",
   "BasePath": "_content/WMS.Server",
   "Mode": "Default",
@@ -29,12 +29,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\dist\\assets\\index-3fdd7e41.js",
+      "Identity": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\dist\\assets\\et-icon-8376314e.svg",
       "SourceId": "wms.client",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\dist\\",
       "BasePath": "/",
-      "RelativePath": "assets/index-3fdd7e41.js",
+      "RelativePath": "assets/et-icon-8376314e.svg",
       "AssetKind": "Publish",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -45,15 +45,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\dist\\assets\\index-3fdd7e41.js"
+      "OriginalItemSpec": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\dist\\assets\\et-icon-8376314e.svg"
     },
     {
-      "Identity": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\dist\\assets\\index-4cd8b53e.css",
+      "Identity": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\dist\\assets\\index-441f60aa.css",
       "SourceId": "wms.client",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\dist\\",
       "BasePath": "/",
-      "RelativePath": "assets/index-4cd8b53e.css",
+      "RelativePath": "assets/index-441f60aa.css",
       "AssetKind": "Publish",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -64,7 +64,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\dist\\assets\\index-4cd8b53e.css"
+      "OriginalItemSpec": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\dist\\assets\\index-441f60aa.css"
+    },
+    {
+      "Identity": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\dist\\assets\\index-75fb6cd8.js",
+      "SourceId": "wms.client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\dist\\",
+      "BasePath": "/",
+      "RelativePath": "assets/index-75fb6cd8.js",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\dist\\assets\\index-75fb6cd8.js"
     },
     {
       "Identity": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\dist\\css\\tailwind.css",
@@ -141,6 +160,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\dist\\img\\devto.svg"
+    },
+    {
+      "Identity": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\dist\\img\\et-icon.svg",
+      "SourceId": "wms.client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\dist\\",
+      "BasePath": "/",
+      "RelativePath": "img/et-icon.svg",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\dist\\img\\et-icon.svg"
     },
     {
       "Identity": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\dist\\img\\favicon.png",

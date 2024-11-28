@@ -13,9 +13,14 @@ import { useMaterialTailwindController, setOpenConfigurator } from "@/context";
 export function Dashboard() {
   const [controller, dispatch] = useMaterialTailwindController();
   const { sidenavType } = controller;
+  const sidenavTypes = {
+    dark: "bg-gradient-to-br from-gray-800 to-gray-900",
+    white: "bg-white shadow-sm",
+    transparent: "bg-blue-gray-50/50",
+  };
 
   return (
-    <div className="min-h-screen bg-blue-gray-50/50">
+      <div className={`min-h-screen ${sidenavTypes[sidenavType]}`}>
       <Sidenav
         routes={routes}
         brandImg={
