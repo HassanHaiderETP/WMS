@@ -87,7 +87,7 @@ export function Sidenav({ brandImg, brandName, routes }) {
                             </li>
                         )}
                         {!collapsible || !collapsedSections[title]
-                            ? pages.map(({ icon, name, path }) => (
+                            ? pages.filter(({ hidden }) => !hidden).map(({ icon, name, path }) => (
                                 <li key={name}>
                                     <NavLink to={`/${layout}${path}`}>
                                         {({ isActive }) => (
@@ -143,6 +143,7 @@ Sidenav.propTypes = {
                 })
             ),
             collapsible: PropTypes.bool,
+            hidden: PropTypes.bool,
         })
     ).isRequired,
 };

@@ -22,7 +22,7 @@ export function SignIn() {
     //const [users, setUsers] = useState([]);
     const navigate = useNavigate();
     const api = axios.create({
-        baseURL: 'https://' + import.meta.env.VITE_API_URL + '/', // Use the correct API URL
+        baseURL: import.meta.env.VITE_API_URL + '/', // Use the correct API URL
     });
 
     const encryptAndStoreData = (email, password) => {
@@ -51,12 +51,13 @@ export function SignIn() {
             });
 
             if (response.data && response.data.token) {
-                const { userId, token, refreshToken } = response.data;
+                const { userId, token, refreshToken, roleId } = response.data;
 
                 // Store tokens in local storage
                 localStorage.setItem('userId', userId);
                 localStorage.setItem('authToken', token);
                 localStorage.setItem('refreshToken', refreshToken);
+                localStorage.setItem('roleId', roleId);
 
                 // Redirect to the dashboard after successful login
                 navigate('/dashboard/home');

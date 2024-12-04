@@ -180,7 +180,7 @@ namespace WMS.Server.Controllers
             var token = GenerateJwtToken(authenticatedUser);
             var refreshToken = GenerateRefreshToken();
 
-            return Ok(new { userId = authenticatedUser.UserId, Token = token, RefreshToken = refreshToken });
+            return Ok(new { userId = authenticatedUser.UserId, Token = token, RefreshToken = refreshToken, roleId = authenticatedUser.RolesID });
 
         }
 
@@ -322,5 +322,13 @@ namespace WMS.Server.Controllers
             return Ok("Password updated successfully");
         }
 
+        [Authorize]
+        [HttpGet]
+        [Route("GetCheckUserPermission/{roleId}")]
+        public async Task<IActionResult> CheckUserPermission(int roleId, string module)
+        {
+            var permissions = await _userProfileRepository.CheckUserPermission(roleId, module);
+            return permissions != null ? Ok(permissions) : NotFound();
+        }
     }
 }

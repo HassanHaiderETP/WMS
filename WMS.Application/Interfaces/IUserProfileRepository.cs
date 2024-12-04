@@ -13,5 +13,6 @@ namespace WMS.Application.Interfaces
         Task UpdateAsync(UserProfile user);
         Task DeleteAsync(int userId);
         Task UpdatePasswordAsync(int userId, string newPassword);
+        Task<IEnumerable<UserRolesPermission>> CheckUserPermission(int roleId, string module);
     }
 }

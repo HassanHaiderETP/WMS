@@ -17,6 +17,9 @@ import {
 } from "@material-tailwind/react";
 
 function CreateUserRole({ darkMode }) {
+    const [userPermissions, setUserPermissions] = useState([]);
+    const currentRoleId = localStorage.getItem('roleId');
+    const [module, setModule] = useState("Create User Role");
     const [isCreateVisible, setIsCreateVisible] = useState(true);
     const [isUpdateVisible, setIsUpdateVisible] = useState(false);
     const [modalLabel, setModalLabel] = useState('Create Role');
@@ -28,7 +31,7 @@ function CreateUserRole({ darkMode }) {
     const [modalOpen, setModalOpen] = useState(false);
     const token = localStorage.getItem('authToken');
     const api = axios.create({
-        baseURL: 'https://' + import.meta.env.VITE_API_URL + '/',
+        baseURL: import.meta.env.VITE_API_URL + '/',
         headers: {
             Authorization: token ? `Bearer ${token}` : ''
         }
@@ -37,8 +40,41 @@ function CreateUserRole({ darkMode }) {
     // Fetch roles on component mount
     useEffect(() => {
         fetchRoles();
+        fetchUserPermissions();
         resetForm();
     }, []);
+
+    // Fetch users permissions
+    const fetchUserPermissions = async () => {
+        try {
+            const response = await api.get(
+                `api/UserProfile/GetCheckUserPermission/${parseInt(currentRoleId, 10)}`,
+                {
+                    params: {
+                        module: module
+                    },
+                    headers: {
+                        'Authorization': `Bearer ${token}`,
+                        'Content-Type': 'application/json',
+                    }
+                }
+            );
+            setUserPermissions(response.data);
+            //console.log('Permissions:', response.data);
+            //console.log('Permissions:', userPermissions);
+            //setIsPermissionsLoaded(true);
+            //console.log('isPermissionsLoaded:', isPermissionsLoaded);
+        } catch (error) {
+            console.error('Error fetching permissions:', error);
+            Swal.fire({
+                icon: 'error',
+                title: 'Error',
+                text: `Error fetching permissions: ${error.message}`,
+                confirmButtonText: 'OK',
+                confirmButtonColor: '#3085d6',
+            });
+        }
+    };
 
     // Fetch all roles
     const fetchRoles = async () => {
@@ -274,6 +310,12 @@ function CreateUserRole({ darkMode }) {
                         type="button"
                         onClick={() => handleRowClick(row)}
                         className="text-blue-500 hover:bg-blue-100 hover:text-blue-700 font-semibold py-2 px-3 rounded-lg transition-colors duration-300 ease-in-out"
+                        disabled={
+                            userPermissions.find(
+                                (permission) =>
+                                    permission.permission === "Update" && permission.isEnable === true
+                            ) === undefined
+                        }
                     >
                         <ModeEditOutlineOutlinedIcon />
                     </button>
@@ -283,6 +325,12 @@ function CreateUserRole({ darkMode }) {
                         type="button"
                         onClick={() => handleDeleteRole(row)}
                         className="text-red-500 hover:bg-red-100 hover:text-red-700 font-semibold py-2 px-3 rounded-lg transition-colors duration-300 ease-in-out"
+                        disabled={
+                            userPermissions.find(
+                                (permission) =>
+                                    permission.permission === "Delete" && permission.isEnable === true
+                            ) === undefined
+                        }
                     >
                         <DeleteOutlinedIcon />
                     </button>
@@ -322,6 +370,12 @@ function CreateUserRole({ darkMode }) {
                         type="button"
                         className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded"
                         onClick={HandelOpenModal}
+                        disabled={
+                            userPermissions.find(
+                                (permission) =>
+                                    permission.permission === "Create" && permission.isEnable === true
+                            ) === undefined
+                        }
                     >
                         Create Role
                     </button>

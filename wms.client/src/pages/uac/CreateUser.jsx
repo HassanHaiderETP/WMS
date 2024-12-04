@@ -23,6 +23,8 @@ import {
 
 function CreateUser({ darkMode }) {
     const [isCreateVisible, setIsCreateVisible] = useState(true);
+    const [module, setModule] = useState("Create User");
+    const [userPermissions, setUserPermissions] = useState([]);
     const [isUpdateVisible, setIsUpdateVisible] = useState(false);
     const [modalLabel, setModalLabel] = useState('Create User');
     const [users, setUsers] = useState([]);
@@ -36,8 +38,9 @@ function CreateUser({ darkMode }) {
     const [RolesID, setRolesID] = useState(0);
     const [modalOpen, setModalOpen] = useState(false);
     const token = localStorage.getItem('authToken');
+    const currentRoleId = localStorage.getItem('roleId');
     const api = axios.create({
-        baseURL: 'https://' + import.meta.env.VITE_API_URL + '/',
+        baseURL: import.meta.env.VITE_API_URL + '/',
         headers: {
             Authorization: token ? `Bearer ${token}` : ''
         }
@@ -50,12 +53,44 @@ function CreateUser({ darkMode }) {
     const [controller, dispatch] = useMaterialTailwindController();
     const { sidenavType, fixedNavbar, openSidenav } = controller;
 
-    // Fetch Users and Roles on component mount
     useEffect(() => {
         fetchUsers();
+        fetchUserPermissions();
         fetchRoles();
         resetForm();
     }, []);
+
+    // Fetch users permissions
+    const fetchUserPermissions = async () => {        
+        try {
+            const response = await api.get(
+                `api/UserProfile/GetCheckUserPermission/${parseInt(currentRoleId, 10)}`,
+                {
+                    params: {
+                        module: module
+                    },
+                    headers: {
+                        'Authorization': `Bearer ${token}`,
+                        'Content-Type': 'application/json',
+                    }
+                }
+            );
+            setUserPermissions(response.data);
+            //console.log('Permissions:', response.data);
+            //console.log('Permissions:', userPermissions);
+            //setIsPermissionsLoaded(true);
+            //console.log('isPermissionsLoaded:', isPermissionsLoaded);
+        } catch (error) {
+            console.error('Error fetching permissions:', error);
+            Swal.fire({
+                icon: 'error',
+                title: 'Error',
+                text: `Error fetching permissions: ${error.message}`,
+                confirmButtonText: 'OK',
+                confirmButtonColor: '#3085d6',
+            });
+        }
+    };
 
     // Fetch all users
     const fetchUsers = async () => {
@@ -92,7 +127,7 @@ function CreateUser({ darkMode }) {
     };
 
     const isUserExists = (userName) => {
-        if (!userName) return false; // If the input is empty, return false
+        if (!userName) return false;
 
         const trimmedUserName = userName.trim().toLowerCase();
 
@@ -312,7 +347,6 @@ function CreateUser({ darkMode }) {
         }
     };
 
-
     // Reset form fields
     const resetForm = () => {
         setUserName('');
@@ -400,6 +434,12 @@ function CreateUser({ darkMode }) {
                         type="button"
                         onClick={() => handleRowClick(row)}
                         className="text-blue-500 hover:bg-blue-100 hover:text-blue-700 font-semibold py-2 px-3 rounded-lg transition-colors duration-300 ease-in-out"
+                        disabled={
+                            userPermissions.find(
+                                (permission) =>
+                                    permission.permission === "Update" && permission.isEnable === true
+                            ) === undefined
+                        }
                     >
                         <ModeEditOutlineOutlinedIcon />
                     </button>
@@ -409,6 +449,12 @@ function CreateUser({ darkMode }) {
                         type="button"
                         onClick={() => handleDelete(row)}
                         className="text-red-500 hover:bg-red-100 hover:text-red-700 font-semibold py-2 px-3 rounded-lg transition-colors duration-300 ease-in-out"
+                        disabled={
+                            userPermissions.find(
+                                (permission) =>
+                                    permission.permission === "Delete" && permission.isEnable === true
+                            ) === undefined
+                        }
                     >
                         <DeleteOutlinedIcon />
                     </button>
@@ -518,6 +564,12 @@ function CreateUser({ darkMode }) {
                             type="button"
                             className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded"
                             onClick={HandelOpenModal}
+                            disabled={
+                                userPermissions.find(
+                                    (permission) =>
+                                        permission.permission === "Create" && permission.isEnable === true
+                                ) === undefined
+                            }
                         >
                             Create User
                         </button>
@@ -629,12 +681,12 @@ function CreateUser({ darkMode }) {
                         label="Search"
                         value={searchTerm}
                         onChange={(e) => setSearchTerm(e.target.value)}
-                        className={`${sidenavType === "dark" ? "text-white" : "text-blue-gray-500"}` }
+                        className={`${sidenavType === "dark" ? "text-white" : "text-blue-gray-500"}`}
                     />
                 </div>
 
                 <div className="mt-12 mb-8 flex flex-col gap-12">
-                    <Card className={`${sidenavTypes[sidenavType]}` }>
+                    <Card className={`${sidenavTypes[sidenavType]}`}>
                         <CardHeader variant="gradient" color="blue" className={`mb-8 p-6 ${sidenavTypes[sidenavType]}`}>
                             <Typography variant="h6" color="white">
                                 Users Table
@@ -651,14 +703,13 @@ function CreateUser({ darkMode }) {
                                     //theme={darkMode ? 'dark' : 'default'}
                                     customStyles={customStyles(sidenavType)}
                                 />
-                             </div>
+                            </div>
                         </CardBody>
                     </Card>
                 </div>
             </section>
         </>
     );
-
 }
 
 export default CreateUser;

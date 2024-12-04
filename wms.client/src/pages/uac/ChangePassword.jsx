@@ -7,6 +7,9 @@ import { useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2';
 
 function ChangePassword({ darkMode }) {
+    const [userPermissions, setUserPermissions] = useState([]);
+    const currentRoleId = localStorage.getItem('roleId');
+    const [module, setModule] = useState("Change Password");
     const [users, setUsers] = useState([]);
     const [passwordVisible, setPasswordVisible] = useState(false);
     const [userId, setUserId] = useState('');
@@ -15,11 +18,43 @@ function ChangePassword({ darkMode }) {
     const navigate = useNavigate();
     const token = localStorage.getItem('authToken');
     const api = axios.create({
-        baseURL: 'https://' + import.meta.env.VITE_API_URL + '/',//import.meta.env.VITE_API_URL,
+        baseURL: import.meta.env.VITE_API_URL + '/',//import.meta.env.VITE_API_URL,
         headers: {
             Authorization: token ? `Bearer ${token}` : ''
         }
     });
+
+    // Fetch users permissions
+    const fetchUserPermissions = async () => {
+        try {
+            const response = await api.get(
+                `api/UserProfile/GetCheckUserPermission/${parseInt(currentRoleId, 10)}`,
+                {
+                    params: {
+                        module: module
+                    },
+                    headers: {
+                        'Authorization': `Bearer ${token}`,
+                        'Content-Type': 'application/json',
+                    }
+                }
+            );
+            setUserPermissions(response.data);
+            //console.log('Permissions:', response.data);
+            //console.log('Permissions:', userPermissions);
+            //setIsPermissionsLoaded(true);
+            //console.log('isPermissionsLoaded:', isPermissionsLoaded);
+        } catch (error) {
+            console.error('Error fetching permissions:', error);
+            Swal.fire({
+                icon: 'error',
+                title: 'Error',
+                text: `Error fetching permissions: ${error.message}`,
+                confirmButtonText: 'OK',
+                confirmButtonColor: '#3085d6',
+            });
+        }
+    };
 
     // Fetch users
     const fetchUsers = async () => {
@@ -77,6 +112,7 @@ function ChangePassword({ darkMode }) {
 
     useEffect(() => {
         fetchUsers();
+        fetchUserPermissions();
     }, []); // fetch users once on component mount
 
     useEffect(() => {
@@ -293,6 +329,12 @@ function ChangePassword({ darkMode }) {
                             className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded"
                             type="button"
                             onClick={handleSave}
+                            disabled={
+                                userPermissions.find(
+                                    (permission) =>
+                                        permission.permission === "Create" && permission.isEnable === true
+                                ) === undefined
+                            }
                         >
                             Save
                         </button>

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import DataTable from 'react-data-table-component';
 import Swal from 'sweetalert2';
+import axios from 'axios';
 import {
     Card,
     CardHeader,
@@ -14,18 +15,60 @@ import {
 } from "@material-tailwind/react";
 
 function UserRolePermission({ darkMode }) {
+    const [userPermissions, setUserPermissions] = useState([]);
+    const currentRoleId = localStorage.getItem('roleId');
+    const [module, setModule] = useState("Set User Permission");
     const [roles, setRoles] = useState([]);
     const [selectedRole, setSelectedRole] = useState('');
     const [tableData, setTableData] = useState([]);
     const [searchTerm, setSearchTerm] = useState('');
     const [loading, setLoading] = useState(false);
-    const API_url = 'https://' + import.meta.env.VITE_API_URL;
+    const API_url = import.meta.env.VITE_API_URL;
     const token = localStorage.getItem('authToken');
+    const api = axios.create({
+        baseURL: import.meta.env.VITE_API_URL + '/',
+        headers: {
+            Authorization: token ? `Bearer ${token}` : ''
+        }
+    });
 
     // Fetch all roles on component mount
     useEffect(() => {
         fetchRoles();
+        fetchUserPermissions();
     }, []);
+
+    // Fetch users permissions
+    const fetchUserPermissions = async () => {
+        try {
+            const response = await api.get(
+                `api/UserProfile/GetCheckUserPermission/${parseInt(currentRoleId, 10)}`,
+                {
+                    params: {
+                        module: module
+                    },
+                    headers: {
+                        'Authorization': `Bearer ${token}`,
+                        'Content-Type': 'application/json',
+                    }
+                }
+            );
+            setUserPermissions(response.data);
+            //console.log('Permissions:', response.data);
+            //console.log('Permissions:', userPermissions);
+            //setIsPermissionsLoaded(true);
+            //console.log('isPermissionsLoaded:', isPermissionsLoaded);
+        } catch (error) {
+            console.error('Error fetching permissions:', error);
+            Swal.fire({
+                icon: 'error',
+                title: 'Error',
+                text: `Error fetching permissions: ${error.message}`,
+                confirmButtonText: 'OK',
+                confirmButtonColor: '#3085d6',
+            });
+        }
+    };
 
     const fetchRoles = async () => {
         try {
@@ -228,6 +271,12 @@ function UserRolePermission({ darkMode }) {
                             type="button"
                             className="ml-5 bg-blue-500 hover:bg-blue-600 text-white px-8 py-2 rounded"
                             onClick={handleSave}
+                            disabled={
+                                userPermissions.find(
+                                    (permission) =>
+                                        permission.permission === "Update" && permission.isEnable === true
+                                ) === undefined
+                            }
                         >
                             Save
                         </button>

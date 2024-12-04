@@ -83,5 +83,12 @@ namespace WMS.Infrastructure.Repositories
             _context.UserProfiles.Remove(user);
             await _context.SaveChangesAsync();
         }
+
+        public async Task<IEnumerable<UserRolesPermission>> CheckUserPermission(int roleId, string module)
+        {
+            return _context.UserRolesPermissions.AsNoTracking()
+                .Where(p => p.RolesId == roleId && p.Module == module && p.Device == "Web")
+                .ToList();
+        }
     }
 }
