@@ -15,8 +15,15 @@ import {
     Tooltip,
     Progress,
 } from "@material-tailwind/react";
+import {
+    useMaterialTailwindController,
+    setOpenConfigurator,
+    setOpenSidenav,
+} from "@/context";
 
 function CreateUserRole({ darkMode }) {
+    const [controller, dispatch] = useMaterialTailwindController();
+    const { sidenavType, fixedNavbar, openSidenav } = controller;
     const [userPermissions, setUserPermissions] = useState([]);
     const currentRoleId = localStorage.getItem('roleId');
     const [module, setModule] = useState("Create User Role");
@@ -365,7 +372,7 @@ function CreateUserRole({ darkMode }) {
         <>
             <section>
                 <div className="flex justify-between  md:flex-col items-start">
-                    <h2 className="mt-2 mb-4 font-bold">Create User Role</h2>
+                    <h2 className={`mt-2 mb-4 font-bold ${sidenavType === "dark" ? "text-white" : "text-blue-gray-500"}`}>Create User Role</h2>
                     <button
                         type="button"
                         className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded"

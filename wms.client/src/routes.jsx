@@ -10,6 +10,7 @@ import {
     UserGroupIcon,
     KeyIcon,
 } from "@heroicons/react/24/solid";
+import { FaCartPlus } from 'react-icons/fa';
 import { Home, Profile, Tables, Notifications } from "@/pages/dashboard";
 import { SignIn, SignUp } from "@/pages/auth";
 
@@ -18,6 +19,7 @@ import CreateUser from './pages/Uac/CreateUser';
 import CreateUserRole from './pages/Uac/CreateUserRole';
 import UserRolePermission from './pages/Uac/UserRolePermission';
 import ChangePassword from './pages/Uac/ChangePassword';
+import PurchaseOrder from './pages/PurchaseOrder/PurchaseOrder';
 
 const icon = {
     className: "w-5 h-5 text-inherit",
@@ -51,6 +53,19 @@ export const routes = [
                 path: "/notifications",
                 element: <Notifications />,
             },
+        ],
+    },
+    {
+        layout: "dashboard",
+        title: "purchase Order",
+        collapsible: true,
+        pages: [
+            {
+                icon: <FaCartPlus />,
+                name: "purchase order",
+                path: "/purchaseOrder/purchase-order",
+                element: <PurchaseOrder />,
+            }
         ],
     },
     {

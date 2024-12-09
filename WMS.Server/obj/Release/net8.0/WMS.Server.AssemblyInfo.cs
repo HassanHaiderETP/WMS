@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WMS.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+555229b945faad6e03aa4390dface4ba51bc3e9c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ddbcef5237d81808d1e09059794381fa07465cc")]
 [assembly: System.Reflection.AssemblyProductAttribute("WMS.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WMS.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

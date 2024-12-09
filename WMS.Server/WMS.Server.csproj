@@ -10,14 +10,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\assets\et-icon-8376314e.svg" />
     <Content Remove="wwwroot\assets\index-3fdd7e41.js" />
+    <Content Remove="wwwroot\assets\index-45807aaa.js" />
     <Content Remove="wwwroot\assets\index-4cd8b53e.css" />
     <Content Remove="wwwroot\assets\index-CVgJnYsd.js" />
+    <Content Remove="wwwroot\assets\index-f6b7851d.css" />
     <Content Remove="wwwroot\assets\index-tn0RQdqM.css" />
     <Content Remove="wwwroot\css\tailwind.css" />
     <Content Remove="wwwroot\img\background-image.png" />
     <Content Remove="wwwroot\img\bruce-mars.jpeg" />
     <Content Remove="wwwroot\img\devto.svg" />
+    <Content Remove="wwwroot\img\et-icon.svg" />
     <Content Remove="wwwroot\img\favicon.png" />
     <Content Remove="wwwroot\img\github.svg" />
     <Content Remove="wwwroot\img\home-decor-1.jpeg" />
@@ -65,14 +69,18 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\assets\et-icon-8376314e.svg" />
     <None Include="wwwroot\assets\index-3fdd7e41.js" />
+    <None Include="wwwroot\assets\index-45807aaa.js" />
     <None Include="wwwroot\assets\index-4cd8b53e.css" />
     <None Include="wwwroot\assets\index-CVgJnYsd.js" />
+    <None Include="wwwroot\assets\index-f6b7851d.css" />
     <None Include="wwwroot\assets\index-tn0RQdqM.css" />
     <None Include="wwwroot\css\tailwind.css" />
     <None Include="wwwroot\img\background-image.png" />
     <None Include="wwwroot\img\bruce-mars.jpeg" />
     <None Include="wwwroot\img\devto.svg" />
+    <None Include="wwwroot\img\et-icon.svg" />
     <None Include="wwwroot\img\favicon.png" />
     <None Include="wwwroot\img\github.svg" />
     <None Include="wwwroot\img\home-decor-1.jpeg" />

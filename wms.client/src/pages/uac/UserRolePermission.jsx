@@ -13,8 +13,15 @@ import {
     Tooltip,
     Progress,
 } from "@material-tailwind/react";
+import {
+    useMaterialTailwindController,
+    setOpenConfigurator,
+    setOpenSidenav,
+} from "@/context";
 
 function UserRolePermission({ darkMode }) {
+    const [controller, dispatch] = useMaterialTailwindController();
+    const { sidenavType, fixedNavbar, openSidenav } = controller;
     const [userPermissions, setUserPermissions] = useState([]);
     const currentRoleId = localStorage.getItem('roleId');
     const [module, setModule] = useState("Set User Permission");
@@ -250,7 +257,7 @@ function UserRolePermission({ darkMode }) {
             <section>
                 <div className="flex justify-between md:flex-col items-start">
                     <div className="">
-                            <h2 className="mt-2 mb-4 font-bold">User Role Permission</h2>
+                        <h2 className={`mt-2 mb-4 font-bold ${sidenavType === "dark" ? "text-white" : "text-blue-gray-500"}`}>User Role Permission</h2>
                     </div>
 
                     {/* Dropdown for roles */}

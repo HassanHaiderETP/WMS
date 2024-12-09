@@ -5,8 +5,15 @@ import { useSelector } from 'react-redux';
 import CryptoJS from 'crypto-js';
 import { useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2';
+import {
+    useMaterialTailwindController,
+    setOpenConfigurator,
+    setOpenSidenav,
+} from "@/context";
 
 function ChangePassword({ darkMode }) {
+    const [controller, dispatch] = useMaterialTailwindController();
+    const { sidenavType, fixedNavbar, openSidenav } = controller;
     const [userPermissions, setUserPermissions] = useState([]);
     const currentRoleId = localStorage.getItem('roleId');
     const [module, setModule] = useState("Change Password");
@@ -260,7 +267,7 @@ function ChangePassword({ darkMode }) {
     return (
         <>
             <div>
-                <h2 className="mt-2 mb-4 font-bold">Change Password</h2>
+                <h2 className={`mt-2 mb-4 font-bold ${sidenavType === "dark" ? "text-white" : "text-blue-gray-500"}`}>Change Password</h2>
             </div>
             <div className={`flex items-center justify-center ${darkMode ? 'bg-gray-900' : 'bg-white-100'}`}>
                 <div className={`p-8 max-w-lg w-full ${darkMode ? 'bg-gray-900 text-white' : 'bg-white shadow-lg rounded-lg text-black'}`}>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/Hdqjqt/kGpWspiNaB13SG2FIogfR3ZdTfHxVj7bCLs=",
+  "Hash": "unIqWSWEf3cc/w7FnMnbMMoZwdZcuqfuoKz0wW8I184=",
   "Source": "WMS.Server",
   "BasePath": "_content/WMS.Server",
   "Mode": "Default",
@@ -48,12 +48,12 @@
       "OriginalItemSpec": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\dist\\assets\\et-icon-8376314e.svg"
     },
     {
-      "Identity": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\dist\\assets\\index-441f60aa.css",
+      "Identity": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\dist\\assets\\index-45807aaa.js",
       "SourceId": "wms.client",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\dist\\",
       "BasePath": "/",
-      "RelativePath": "assets/index-441f60aa.css",
+      "RelativePath": "assets/index-45807aaa.js",
       "AssetKind": "Publish",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -64,15 +64,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\dist\\assets\\index-441f60aa.css"
+      "OriginalItemSpec": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\dist\\assets\\index-45807aaa.js"
     },
     {
-      "Identity": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\dist\\assets\\index-dcb53e39.js",
+      "Identity": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\dist\\assets\\index-f6b7851d.css",
       "SourceId": "wms.client",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\dist\\",
       "BasePath": "/",
-      "RelativePath": "assets/index-dcb53e39.js",
+      "RelativePath": "assets/index-f6b7851d.css",
       "AssetKind": "Publish",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -83,7 +83,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\dist\\assets\\index-dcb53e39.js"
+      "OriginalItemSpec": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\dist\\assets\\index-f6b7851d.css"
     },
     {
       "Identity": "C:\\Users\\HP1\\Desktop\\Latest WMS Code\\_WMS\\WMS\\wms.client\\dist\\css\\tailwind.css",

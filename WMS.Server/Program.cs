@@ -54,6 +54,7 @@ builder.Services.AddDbContext<WMSDbContext>(options =>
 builder.Services.AddScoped<IUserProfileRepository, UserProfileRepository>();
 builder.Services.AddScoped<IUserRolesRepository, UserRolesRepository>();
 builder.Services.AddScoped<IUserRolesPermission, UserRolesPermissionRepository>();
+builder.Services.AddScoped<IPurchaseOrderRepository, PurchaseOrderRepository>();
 
 
 //Configure Swagger/OpenAPI for API documentation
